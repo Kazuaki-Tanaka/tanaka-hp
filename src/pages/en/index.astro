@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Section from '../../components/Section.astro';
-import InfoList from '../../components/InfoList.astro';
+import ObfuscatedEmail from '../../components/ObfuscatedEmail.astro';
 import Timeline from '../../components/Timeline.astro';
 import BadgeList from '../../components/BadgeList.astro';
 ---
@@ -9,19 +9,28 @@ import BadgeList from '../../components/BadgeList.astro';
 <BaseLayout title="Kazuaki Tanaka" description="Kazuaki Tanaka - About Me">
   <!-- Hero -->
   <div class="bg-bg-card rounded-xl border border-border shadow-sm p-6 sm:p-8 mb-6">
-    <h1 class="text-3xl sm:text-4xl font-bold text-primary">Kazuaki Tanaka</h1>
-    <p class="text-text mt-3">Chief Researcher, Fundamental Research Dept., <a href="https://www.ricos.co.jp/en/" class="text-accent hover:underline" target="_blank" rel="noopener">RICOS Co. Ltd.</a></p>
-    <p class="text-text">Adjunct Researcher, <a href="https://www.waseda.jp/fsci/wise/" class="text-accent hover:underline" target="_blank" rel="noopener">Research Institute for Science and Engineering, Waseda University</a></p>
-    <p class="text-text">Representative Director, <a href="https://masic.jp/" class="text-accent hover:underline" target="_blank" rel="noopener">Mathematics for Social Implementation Center (MaSIC)</a></p>
-    <p class="text-text-muted text-sm">Ph.D. / JST FOREST Researcher</p>
+    <div class="flex items-start gap-4 sm:gap-5">
+      <img
+        src="/portrait.jpg"
+        alt="Kazuaki Tanaka"
+        width="96"
+        height="96"
+        class="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover shrink-0 border border-border"
+      />
+      <div>
+        <h1 class="text-3xl sm:text-4xl font-bold text-primary">Kazuaki Tanaka</h1>
+        <p class="text-text mt-3">Chief Researcher, Fundamental Research Dept., <a href="https://www.ricos.co.jp/en/" class="text-accent hover:underline" target="_blank" rel="noopener">RICOS Co. Ltd.</a></p>
+        <p class="text-text">Adjunct Researcher, <a href="https://www.waseda.jp/fsci/wise/" class="text-accent hover:underline" target="_blank" rel="noopener">Research Institute for Science and Engineering, Waseda University</a></p>
+        <p class="text-text">Representative Director, <a href="https://masic.jp/" class="text-accent hover:underline" target="_blank" rel="noopener">Mathematics for Social Implementation Center (MaSIC)</a></p>
+        <p class="text-text-muted text-sm">Ph.D. / JST FOREST Researcher</p>
+      </div>
+    </div>
   </div>
 
   <div class="space-y-6">
     <!-- Contact -->
     <Section title="Contact">
-      <InfoList items={[
-        { label: "Email", value: "tanaka [at] ims.sci.waseda.ac.jp" },
-      ]} />
+      <ObfuscatedEmail label="Email" />
     </Section>
 
     <!-- Keywords -->

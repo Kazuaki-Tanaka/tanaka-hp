@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Section from '../../components/Section.astro';
-import InfoList from '../../components/InfoList.astro';
+import ObfuscatedEmail from '../../components/ObfuscatedEmail.astro';
 import Timeline from '../../components/Timeline.astro';
 import BadgeList from '../../components/BadgeList.astro';
 ---
@@ -9,20 +9,29 @@ import BadgeList from '../../components/BadgeList.astro';
 <BaseLayout title="田中 一成 (TANAKA, Kazuaki)" description="田中 一成 プロフィール">
   <!-- Hero -->
   <div class="bg-bg-card rounded-xl border border-border shadow-sm p-6 sm:p-8 mb-6">
-    <h1 class="text-3xl sm:text-4xl font-bold text-primary">田中 一成</h1>
-    <p class="text-lg text-text-muted mt-1">TANAKA, Kazuaki</p>
-    <p class="text-text mt-3"><a href="https://www.ricos.co.jp/ja/" class="text-accent hover:underline" target="_blank" rel="noopener">株式会社RICOS</a> 主任研究員</p>
-    <p class="text-text"><a href="https://www.waseda.jp/fsci/wise/" class="text-accent hover:underline" target="_blank" rel="noopener">早稲田大学 理工学術院総合研究所</a> 招聘研究員</p>
-    <p class="text-text"><a href="https://masic.jp/" class="text-accent hover:underline" target="_blank" rel="noopener">一般社団法人 数理社会実装教育研究センター（MaSIC）</a> 代表理事</p>
-    <p class="text-text-muted text-sm">博士(工学) ／ 科学技術振興機構 (JST) 創発研究者</p>
+    <div class="flex items-start gap-4 sm:gap-5">
+      <img
+        src="/portrait.jpg"
+        alt="田中 一成"
+        width="96"
+        height="96"
+        class="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover shrink-0 border border-border"
+      />
+      <div>
+        <h1 class="text-3xl sm:text-4xl font-bold text-primary">田中 一成</h1>
+        <p class="text-lg text-text-muted mt-1">TANAKA, Kazuaki</p>
+        <p class="text-text mt-3"><a href="https://www.ricos.co.jp/ja/" class="text-accent hover:underline" target="_blank" rel="noopener">株式会社RICOS</a> 主任研究員</p>
+        <p class="text-text"><a href="https://www.waseda.jp/fsci/wise/" class="text-accent hover:underline" target="_blank" rel="noopener">早稲田大学 理工学術院総合研究所</a> 招聘研究員</p>
+        <p class="text-text"><a href="https://masic.jp/" class="text-accent hover:underline" target="_blank" rel="noopener">一般社団法人 数理社会実装教育研究センター（MaSIC）</a> 代表理事</p>
+        <p class="text-text-muted text-sm">博士(工学) ／ 科学技術振興機構 (JST) 創発研究者</p>
+      </div>
+    </div>
   </div>
 
   <div class="space-y-6">
     <!-- 連絡先 -->
     <Section title="連絡先">
-      <InfoList items={[
-        { label: "Email", value: "tanaka [at] ims.sci.waseda.ac.jp" },
-      ]} />
+      <ObfuscatedEmail label="Email" />
     </Section>
 
     <!-- 研究キーワード -->

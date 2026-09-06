@@ -1,0 +1,38 @@
+---
+interface Props {
+  label: string;
+}
+
+const { label } = Astro.props;
+---
+
+<dl>
+  <div class="flex flex-col sm:flex-row sm:gap-4">
+    <dt class="text-sm font-semibold text-text-muted sm:w-32 shrink-0">{label}</dt>
+    <dd class="text-text">
+      <a
+        href="#mail"
+        class="js-obf-mail text-accent hover:underline"
+        data-u1="tana"
+        data-u2="ka"
+        data-h="ims|sci|waseda|ac|jp"
+      >
+        <span>tana</span><span>ka</span>
+        {' '}[at]{' '}
+        <span>ims</span>.<span>sci</span>.<span>waseda</span>.<span>ac</span>.<span>jp</span>
+      </a>
+    </dd>
+  </div>
+</dl>
+
+<script>
+  document.querySelectorAll<HTMLAnchorElement>('.js-obf-mail').forEach((link) => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault();
+      const user = `${link.dataset.u1 ?? ''}${link.dataset.u2 ?? ''}`;
+      const host = (link.dataset.h ?? '').split('|').join('.');
+      if (!user || !host) return;
+      window.location.href = `mai${'lto:'}${user}${String.fromCharCode(64)}${host}`;
+    });
+  });
+</script>
