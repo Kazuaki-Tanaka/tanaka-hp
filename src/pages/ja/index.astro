@@ -1,0 +1,137 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Section from '../../components/Section.astro';
+import InfoList from '../../components/InfoList.astro';
+import Timeline from '../../components/Timeline.astro';
+import BadgeList from '../../components/BadgeList.astro';
+---
+
+<BaseLayout title="田中 一成 (TANAKA, Kazuaki)" description="田中 一成 プロフィール">
+  <!-- Hero -->
+  <div class="bg-bg-card rounded-xl border border-border shadow-sm p-6 sm:p-8 mb-6">
+    <h1 class="text-3xl sm:text-4xl font-bold text-primary">田中 一成</h1>
+    <p class="text-lg text-text-muted mt-1">TANAKA, Kazuaki</p>
+    <p class="text-text mt-3">株式会社RICOS 主任研究員</p>
+    <p class="text-text">早稲田大学 理工学術院総合研究所 招聘研究員</p>
+    <p class="text-text">一般社団法人 数理社会実装教育研究センター（MaSIC）代表理事</p>
+    <p class="text-text-muted text-sm">博士(工学) ／ 科学技術振興機構 (JST) 創発研究者</p>
+  </div>
+
+  <div class="space-y-6">
+    <!-- 連絡先 -->
+    <Section title="連絡先">
+      <InfoList items={[
+        { label: "Email", value: "tanaka [at] ims.sci.waseda.ac.jp" },
+      ]} />
+    </Section>
+
+    <!-- 研究キーワード -->
+    <Section title="研究キーワード">
+      <BadgeList items={["検証数理", "深層学習", "偏微分方程式", "精度保証付き数値計算", "計算機援用証明", "数値解析"]} />
+    </Section>
+
+    <!-- 学歴 -->
+    <Section title="学歴">
+      <Timeline items={[
+        { period: "2017年3月", description: "早稲田大学大学院 基幹理工学研究科 数学応用数理専攻 博士後期課程 修了 博士(工学)（指導教員：大石 進一）" },
+        { period: "2014年3月", description: "早稲田大学大学院 基幹理工学研究科 数学応用数理専攻 修士課程 修了（指導教員：大石 進一）" },
+        { period: "2012年3月", description: "早稲田大学 基幹理工学部 応用数理学科 卒業（指導教員：大石 進一）" },
+        { period: "2007年3月", description: "山口県立防府高等学校 卒業" },
+      ]} />
+    </Section>
+
+    <!-- 職歴 -->
+    <Section title="職歴">
+      <Timeline items={[
+        { period: "2026年9月 –", description: "株式会社RICOS 主任研究員" },
+        { period: "2026年9月 –", description: "早稲田大学 理工学術院総合研究所 招聘研究員" },
+        { period: "2026年4月 –", description: "一般社団法人 数理社会実装教育研究センター（MaSIC）代表理事" },
+        { period: "2023年4月 – 2026年8月", description: "早稲田大学 理工学術院 国際理工学センター 准教授" },
+        { period: "2018年4月 – 2023年3月", description: "早稲田大学 理工学術院総合研究所 数理科学研究所 研究院講師" },
+        { period: "2017年4月 – 2018年3月", description: "早稲田大学 理工学術院 基幹理工学部 応用数理学科 助教" },
+      ]} />
+    </Section>
+
+    <!-- 受賞 -->
+    <Section title="受賞">
+      <div class="space-y-3">
+        {[
+          { year: "2023", title: "第12回 WASEDA e-Teaching Award" },
+          { year: "2023", title: "公益社団法人日本工学教育協会 工学教育賞" },
+          { year: "2022", title: "Outstanding Presentation Award, JSST 2022" },
+          { year: "2022", title: "公益財団法人船井情報科学振興財団 船井研究奨励賞" },
+          { year: "2020", title: "第8回 WASEDA e-Teaching Award 大賞" },
+          { year: "2016", title: "日本応用数理学会2016年度年会 優秀ポスター賞" },
+          { year: "2016", title: "大川功記念特別優秀賞" },
+          { year: "2014", title: "Student Presentation Award, JSST 2014" },
+          { year: "2013", title: "Student Presentation Award, JSST 2013" },
+          { year: "2010", title: "奨励賞, ものづくりコンテスト" },
+        ].map((item) => (
+          <div class="flex gap-3 items-baseline">
+            <span class="text-sm font-mono text-primary shrink-0 w-12">{item.year}</span>
+            <span class="text-text">{item.title}</span>
+          </div>
+        ))}
+      </div>
+    </Section>
+
+    <!-- 研究助成 -->
+    <Section title="研究助成">
+      <div class="space-y-4">
+        {[
+          { period: "2025.10 – 2031.3", title: "秩序の設計－数理が拓く河川の制御", source: "JST CREST", role: "主たる共同研究者" },
+          { period: "2021.4 – 2028.3", title: "精度保証付きニューラルネットワーク数値計算理論の確立", source: "JST 創発的研究支援事業", role: "代表" },
+          { period: "2024.4 – 2028.3", title: "洪水時の観測ビッグデータに基づく自然由来河道の安定機構の解明と河道設計指標の特定", source: "科研費 基盤研究(A)", role: "分担" },
+          { period: "2025.4 – 2026.9", title: "精度保証付きPINNsの開発と実問題への応⽤", source: "みずほ学術振興財団 第68回工学研究助成", role: "代表" },
+          { period: "2023.4 – 2026.3", title: "不連続拡散係数を持つ反応拡散モデルに対する精度保証付き数値計算法", source: "科研費 若手研究", role: "代表" },
+          { period: "2022.1 – 2023.12", title: "急激な温度変化を伴う反応拡散現象に対する精度保証付き数値計算法に関する研究", source: "栢森情報科学振興財団", role: "代表" },
+          { period: "2021.1 – 2021.12", title: "相分離現象解明のための精度保証付き数値計算法", source: "大川情報通信基金", role: "代表" },
+          { period: "2019.4 – 2022.3", title: "精度保証付き数値計算による反応拡散モデルの解に対する符号変化構造解析", source: "科研費 若手研究", role: "代表" },
+          { period: "2017.8 – 2019.3", title: "反応拡散モデルを記述する偏微分方程式の正値解に対する精度保証付き数値計算法", source: "科研費 研究活動スタート支援", role: "代表" },
+          { period: "2017.4 – 2020.3", title: "反応拡散モデルを記述する偏微分方程式の正値解に対する精度保証付き数値計算法と関連する数学上の問題に関する研究", source: "みずほ学術振興財団 第60回工学研究助成", role: "代表" },
+        ].map((item) => (
+          <div class="border-l-2 border-primary/30 pl-4">
+            <div class="text-sm font-mono text-text-muted">{item.period}</div>
+            <div class="text-text mt-0.5">{item.title}</div>
+            <div class="flex gap-2 mt-1">
+              <span class="text-xs bg-gray-100 text-text-muted px-2 py-0.5 rounded">{item.source}</span>
+              <span class="text-xs bg-primary/8 text-primary px-2 py-0.5 rounded">{item.role}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </Section>
+
+    <!-- 学会活動 -->
+    <Section title="学会活動">
+      <div class="space-y-2.5">
+        {[
+          { period: "2026年2月", description: "オーガナイザー 富山数理ワークショップ 2026" },
+          { period: "2025年3月", description: "ローカルオーガナイザー 数学ソフトウェアとフリードキュメント 37" },
+          { period: "2025年3月", description: "オーガナイザー 富山数理ワークショップ 2025" },
+          { period: "2024年2月", description: "オーガナイザー 富山数理ワークショップ 2024" },
+          { period: "2023年11月", description: "オーガナイザー 数理科学者と解く！神経科学のオープンプロブレム" },
+          { period: "2023年9月", description: "オーガナイザー 第7回 JST 数学領域 未解決問題ワークショップ" },
+          { period: "2023年9月", description: "オーガナイザー 創発的研究支援事業 融合の場 第2回集会" },
+          { period: "2023年8月", description: "Executive Committee, Secretary, ICIAM2023" },
+          { period: "2023年5月", description: "オーガナイザー 創発的研究支援事業 融合の場" },
+          { period: "2022年10月", description: "実行委員 異分野・異業種研究交流会2022" },
+          { period: "2022年9月", description: "オーガナイザー 第6回 JST 数学領域 未解決問題ワークショップ" },
+          { period: "2022年7月", description: "オーガナイザー Neuro2022サテライト企画" },
+          { period: "2019 – 2022年", description: "学会誌『応用数理』編集委員（2020 – 2022年 主査）" },
+          { period: "2022年3月", description: "Organizer, ReCAP 2022" },
+          { period: "2021年11月", description: "実行委員 異分野・異業種研究交流会2021" },
+          { period: "2021年9月", description: "代表オーガナイザー 第5回 JST 数学領域 未解決問題ワークショップ" },
+          { period: "2019年7月", description: "Organizer of Minisymposium, ICIAM 2019" },
+          { period: "2018年9月", description: "Organization Committee, Secretary, SCAN 2018" },
+          { period: "2018年3月", description: "Local Organizer, SIAM PP18" },
+        ].map((item) => (
+          <div class="flex gap-3 items-baseline">
+            <span class="text-sm text-text-muted shrink-0 w-28">{item.period}</span>
+            <span class="text-text">{item.description}</span>
+          </div>
+        ))}
+      </div>
+    </Section>
+  </div>
+</BaseLayout>

@@ -1,0 +1,571 @@
+# 論文・業績データ
+# type: preprint | journal | non_refereed | proceedings | review | press_release
+# language: eng | jpn
+
+- title:
+    en: 'Learn and Verify: A Framework for Rigorous Verification of Physics-Informed Neural Networks'
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Kohei Yatabe
+  year: 2025
+  type: preprint
+  refereed: false
+  language: eng
+  international_coauthor: false
+  corresponding_author: true
+  journal: ''
+  volume: ''
+  pages: ''
+  doi: ''
+  arxiv: '2601.19818'
+  links:
+    arXiv: http://arxiv.org/abs/2601.19818
+- title:
+    en: A Green's Function-Based Enclosure Framework for Poisson's Equation and Generalized Sub- and Super-Solutions
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Ryoga Iwanami
+  - name: Kaname Matsue
+  - name: Hiroyuki Ochiai
+  year: 2025
+  type: preprint
+  refereed: false
+  language: eng
+  international_coauthor: false
+  corresponding_author: true
+  journal: ''
+  volume: ''
+  pages: ''
+  doi: ''
+  arxiv: '2601.19682'
+  links:
+    arXiv: http://arxiv.org/abs/2601.19682
+- title:
+    en: 'Polygonal Sequence-driven Triangulation Validator: An Incremental Approach to 2D Triangulation Verification'
+    ja: ''
+  authors:
+  - name: Sora Sawai
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Katsuhisa Ozaki
+  - name: Shin'ichi Oishi
+  year: 2024
+  type: preprint
+  refereed: false
+  language: eng
+  international_coauthor: false
+  corresponding_author: false
+  journal: ''
+  volume: ''
+  pages: ''
+  doi: ''
+  arxiv: '2401.08242'
+  links:
+    arXiv: https://doi.org/10.48550/arXiv.2401.08242
+- title:
+    en: Enhanced Estimation Method for Partial Scattering Functions in CV-SANS via Gaussian Process with Prior Knowledge of Smoothness
+    ja: ''
+  authors:
+  - name: Ippei Obayashi
+  - name: Shinya Miyajima
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Koichi Mayumi
+  year: 2025
+  type: journal
+  refereed: true
+  language: eng
+  international_coauthor: false
+  corresponding_author: true
+  journal: Journal of Applied Crystallography
+  volume: 58(3)
+  pages: 976-991
+  doi: ''
+  arxiv: ''
+  links:
+    Journal: https://journals.iucr.org/j/issues/2025/03/00/jl5111/index.html
+- title:
+    en: Error evaluation of partial scattering functions obtained from contrast variation small-angle neutron scattering
+    ja: ''
+  authors:
+  - name: Koichi Mayumi
+  - name: Tatsuro Oda
+  - name: Shinya Miyajima
+  - name: Ippei Obayashi
+  - name: Kazuaki Tanaka
+    me: true
+  year: 2025
+  type: journal
+  refereed: true
+  language: eng
+  international_coauthor: false
+  corresponding_author: true
+  journal: Journal of Applied Crystallography
+  volume: 58(1)
+  pages: 4-17
+  doi: 10.1107/s1600576724010872
+  arxiv: ''
+  links:
+    Journal: https://journals.iucr.org/j/issues/2025/01/00/ei5120/index.html
+- title:
+    en: Rigorous numerical enclosures for positive solutions of Lane-Emden's equation with sub-square exponents
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Michael Plum
+  - name: Kouta Sekine
+  - name: Masahide Kashiwagi
+  - name: Shin'ichi Oishi
+  year: 2022
+  type: journal
+  refereed: true
+  language: eng
+  international_coauthor: true
+  corresponding_author: true
+  journal: Numerical Functional Analysis and Optimization
+  volume: 43(3)
+  pages: 322-349
+  doi: 10.1080/01630563.2022.2029485
+  arxiv: '1607.04619'
+  links:
+    Journal: https://doi.org/10.1080/01630563.2022.2029485
+    arXiv: https://arxiv.org/abs/1607.04619
+- title:
+    en: A posteriori verification of the positivity of solutions to elliptic boundary value problems
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Taisei Asai
+  year: 2022
+  type: journal
+  refereed: true
+  language: eng
+  international_coauthor: false
+  corresponding_author: true
+  journal: Partial Differential Equations and Application
+  volume: '3'
+  pages: '9'
+  doi: 10.1007/s42985-021-00143-2
+  arxiv: ''
+  links:
+    Journal: https://doi.org/10.1007/s42985-021-00143-2
+- title:
+    en: Inverse norm estimation of perturbed Laplace operators and corresponding eigenvalue problems
+    ja: ''
+  authors:
+  - name: Kouta Sekine
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Shin'ichi Oishi
+  year: 2022
+  type: journal
+  refereed: true
+  language: eng
+  international_coauthor: false
+  corresponding_author: false
+  journal: Computers & Mathematics with Applications
+  volume: '106'
+  pages: 18-26
+  doi: 10.1016/j.camwa.2021.12.002
+  arxiv: ''
+  links:
+    Journal: https://doi.org/10.1016/j.camwa.2021.12.002
+- title:
+    en: Numerical verification for asymmetric solutions of the Hénon equation on bounded domains
+    ja: ''
+  authors:
+  - name: Taisei Asai
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Shin'ichi Oishi
+  year: 2022
+  type: journal
+  refereed: true
+  language: eng
+  international_coauthor: false
+  corresponding_author: false
+  journal: Journal of Computational and Applied Mathematics
+  volume: '399'
+  pages: '113708'
+  doi: 10.1016/j.cam.2021.113708
+  arxiv: ''
+  links:
+    Journal: http://dx.doi.org/10.1016/j.cam.2021.113708
+- title:
+    en: A posteriori verification for the sign-change structure of solutions of elliptic partial differential equations
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+  year: 2021
+  type: journal
+  refereed: true
+  language: eng
+  international_coauthor: false
+  corresponding_author: true
+  journal: Japan Journal of Industrial and Applied Mathematics
+  volume: '38'
+  pages: 731-756
+  doi: 10.1007/s13160-021-00456-0
+  arxiv: ''
+  links:
+    Journal: https://link.springer.com/article/10.1007/s13160-021-00456-0
+- title:
+    en: Numerical verification for positive solutions of Allen–Cahn equation using sub- and super-solution method
+    ja: ''
+  authors:
+  - name: Yuta Matsushima
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Shin'ichi Oishi
+  year: 2020
+  type: journal
+  refereed: true
+  language: eng
+  international_coauthor: false
+  corresponding_author: false
+  journal: Journal of Advanced Simulation in Science and Engineering
+  volume: 7(1)
+  pages: 136-150
+  doi: ''
+  arxiv: ''
+  links:
+    Journal: https://www.jstage.jst.go.jp/article/jasse/7/1/7_136/_article/-char/en
+- title:
+    en: Numerical verification method for positive solutions of elliptic problems
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+  year: 2020
+  type: journal
+  refereed: true
+  language: eng
+  international_coauthor: false
+  corresponding_author: true
+  journal: Journal of Computational and Applied Mathematics
+  volume: '370'
+  pages: '112647'
+  doi: 10.1016/j.cam.2019.112647
+  arxiv: '2011.01556'
+  links:
+    Journal: https://doi.org/10.1016/j.cam.2019.112647
+    arXiv: https://arxiv.org/abs/2011.01556
+- title:
+    en: ''
+    ja: 半線形楕円型境界値問題の精度保証付き数値計算結果の改善
+  authors:
+  - name: 酒井将大
+  - name: 田中一成
+    me: true
+  - name: 大石進一
+  year: 2019
+  type: journal
+  refereed: true
+  language: jpn
+  international_coauthor: false
+  corresponding_author: false
+  journal: 日本応用数理学会論文誌
+  volume: 29(1)
+  pages: 17-45
+  doi: ''
+  arxiv: ''
+  links:
+    Journal: https://www.jstage.jst.go.jp/article/jsiamt/29/1/29_17/_article/-char/ja
+- title:
+    en: Estimation of Sobolev embedding constant on a domain dividable into bounded convex domains
+    ja: ''
+  authors:
+  - name: Makoto Mizuguchi
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Kouta Sekine
+  - name: Shin'ichi Oishi
+  year: 2017
+  type: journal
+  refereed: true
+  language: eng
+  international_coauthor: false
+  corresponding_author: false
+  journal: Journal of Inequalities and Applications
+  volume: ''
+  pages: '299'
+  doi: 10.1186/s13660-017-1571-0
+  arxiv: ''
+  links:
+    Journal: https://doi.org/10.1186/s13660-017-1571-0
+- title:
+    en: Numerical validation of blow-up solutions of ordinary differential equations
+    ja: ''
+  authors:
+  - name: Akitoshi Takayasu
+  - name: Kaname Matsue
+  - name: Takiko Sasaki
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Makoto Mizuguchi
+  - name: Shin'ichi Oishi
+  year: 2017
+  type: journal
+  refereed: true
+  language: eng
+  international_coauthor: false
+  corresponding_author: false
+  journal: Journal of Computational and Applied Mathematics
+  volume: '314'
+  pages: 10-29
+  doi: ''
+  arxiv: '1606.03039'
+  links:
+    Journal: http://www.sciencedirect.com/science/article/pii/S0377042716305027
+    arXiv: https://arxiv.org/abs/1606.03039
+- title:
+    en: Sharp numerical inclusion of the best constant for embedding on bounded convex domain
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Kouta Sekine
+  - name: Makoto Mizuguchi
+  - name: Shin'ichi Oishi
+  year: 2017
+  type: journal
+  refereed: true
+  language: eng
+  international_coauthor: false
+  corresponding_author: true
+  journal: Journal of Computational and Applied Mathematics
+  volume: '311'
+  pages: 306-313
+  doi: ''
+  arxiv: '1503.05468'
+  links:
+    Journal: http://www.sciencedirect.com/science/article/pii/S0377042716303405
+    arXiv: https://arxiv.org/abs/1503.05468
+- title:
+    en: Estimation of the Sobolev embedding constant on domains with minimally smooth boundary using extension operator
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Kouta Sekine
+  - name: Makoto Mizuguchi
+  - name: Shin'ichi Oishi
+  year: 2015
+  type: journal
+  refereed: true
+  language: eng
+  international_coauthor: false
+  corresponding_author: true
+  journal: Journal of Inequalities and Applications
+  volume: ''
+  pages: '389'
+  doi: ''
+  arxiv: ''
+  links:
+    Journal: https://journalofinequalitiesandapplications.springeropen.com/articles/10.1186/s13660-015-0907-x
+- title:
+    en: Numerical verification of positiveness for solutions to semilinear elliptic problems
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Kouta Sekine
+  - name: Makoto Mizuguchi
+  - name: Shin'ichi Oishi
+  year: 2015
+  type: journal
+  refereed: true
+  language: eng
+  international_coauthor: false
+  corresponding_author: true
+  journal: JSIAM Letters
+  volume: '7'
+  pages: 73-76
+  doi: ''
+  arxiv: ''
+  links:
+    Journal: https://www.jstage.jst.go.jp/article/jsiaml/7/0/7_73/_article
+- title:
+    en: Verified norm estimation for the inverse of linear elliptic operators using eigenvalue evaluation
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Akitoshi Takayasu
+  - name: Xuefeng Liu
+  - name: Shin'ichi Oishi
+  year: 2014
+  type: journal
+  refereed: true
+  language: eng
+  international_coauthor: false
+  corresponding_author: true
+  journal: Japan Journal of Industrial and Applied Mathematics
+  volume: '31'
+  pages: 665-679
+  doi: 10.1007/s13160-014-0156-2
+  arxiv: ''
+  links:
+    Journal: http://link.springer.com/article/10.1007/s13160-014-0156-2
+- title:
+    en: ''
+    ja: ある無限次元固有値を用いた楕円型偏微分方程式の解の存在性に対する計算機援用証明法
+  authors:
+  - name: 関根晃太
+  - name: 田中一成
+    me: true
+  - name: 大石進一
+  year: 2017
+  type: non_refereed
+  refereed: false
+  language: jpn
+  international_coauthor: false
+  corresponding_author: false
+  journal: 京都大学数理解析研究所講究録 No.2037
+  volume: ''
+  pages: 96-104
+  doi: ''
+  arxiv: ''
+  links:
+    Journal: http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/2037-13.pdf
+- title:
+    en: Numerical verification method for positivity of solutions to elliptic equations
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Kouta Sekine
+  - name: Shin'ichi Oishi
+  year: 2017
+  type: non_refereed
+  refereed: false
+  language: eng
+  international_coauthor: false
+  corresponding_author: true
+  journal: RIMS Kôkyûroku No.2037
+  volume: ''
+  pages: 125-140
+  doi: ''
+  arxiv: ''
+  links:
+    Journal: http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/2037-16.pdf
+- title:
+    en: Computer assisted existence proof of solutions to system of partial differential equations with bounded convex polygonal domains
+    ja: ''
+  authors:
+  - name: Kouta Sekine
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Shin'ichi Oishi
+  year: 2016
+  type: proceedings
+  refereed: false
+  language: eng
+  international_coauthor: false
+  corresponding_author: false
+  journal: Proceedings of the Twenty-Eighth RAMP Symposium
+  volume: ''
+  pages: ''
+  doi: ''
+  arxiv: ''
+  links: {}
+- title:
+    en: ''
+    ja: 未解決問題と対峙する／問いをつくり，問いに挑む
+  authors:
+  - name: 田中一成
+    me: true
+  year: 2025
+  type: review
+  refereed: false
+  language: jpn
+  international_coauthor: false
+  corresponding_author: true
+  journal: 数学セミナー 2025年12月号 通巻770号
+  volume: ''
+  pages: ''
+  doi: ''
+  arxiv: ''
+  links: {}
+- title:
+    en: ''
+    ja: 数理科学を活用したコントラスト変調小角散乱法による多成分有機ハイブリッド材料のナノ構造解析
+  authors:
+  - name: 眞弓皓一
+  - name: 小田達郎
+  - name: 宮島信也
+  - name: 大林一平
+  - name: 田中一成
+    me: true
+  year: 2025
+  type: review
+  refereed: false
+  language: jpn
+  international_coauthor: false
+  corresponding_author: true
+  journal: 日本中性子科学会誌「波紋」Vol.35 No.4
+  volume: 35(4)
+  pages: ''
+  doi: ''
+  arxiv: ''
+  links: {}
+- title:
+    en: ''
+    ja: 精度保証付き数値計算の未来像－AI時代の計算機援用証明－
+  authors:
+  - name: 田中一成
+    me: true
+  year: 2025
+  type: review
+  refereed: false
+  language: jpn
+  international_coauthor: false
+  corresponding_author: true
+  journal: オペレーションズリサーチ 70巻6号
+  volume: 70(6)
+  pages: ''
+  doi: ''
+  arxiv: ''
+  links: {}
+- title:
+    en: ''
+    ja: コンピュータも計算を間違う？－数値計算の精度と誤差－
+  authors:
+  - name: 田中一成
+    me: true
+  year: 2022
+  type: review
+  refereed: false
+  language: jpn
+  international_coauthor: false
+  corresponding_author: true
+  journal: 日本音響学会誌 78巻10号
+  volume: 78(10)
+  pages: ''
+  doi: ''
+  arxiv: ''
+  links: {}
+- title:
+    en: ''
+    ja: 中性子小角散乱法を用いた多成分系ナノ構造解析における誤差評価手法を開発
+  authors: []
+  year: 2024
+  type: press_release
+  refereed: false
+  language: jpn
+  international_coauthor: false
+  corresponding_author: true
+  journal: ''
+  volume: ''
+  pages: ''
+  doi: ''
+  arxiv: ''
+  links: {}
+  note: 科学技術振興機構, 東京大学物性研究所, 日本経済新聞他

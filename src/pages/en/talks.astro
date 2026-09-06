@@ -1,0 +1,99 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import { loadTalks, groupBy } from '../../lib/data';
+import type { Talk } from '../../lib/data';
+
+const talks = loadTalks();
+
+const intlOral = talks.filter((t) => t.international && t.type !== 'poster');
+const domesticOral = talks.filter((t) => !t.international && t.type !== 'poster' && t.type !== 'other');
+const posters = talks.filter((t) => t.type === 'poster');
+const others = talks.filter((t) => t.type === 'other');
+
+const sections = [
+  { label: 'International Conferences (Oral)', items: intlOral },
+  { label: 'Domestic Conferences (Oral)', items: domesticOral },
+  { label: 'Poster Presentations', items: posters },
+  { label: 'Others (Seminars / Outreach)', items: others },
+].filter((s) => s.items.length > 0);
+
+function formatAuthors(talk: Talk): string {
+  return talk.authors.map((a) => {
+    return a.speaker ? `<strong>${a.name}</strong>` : a.name;
+  }).join(', ');
+}
+
+function formatTalk(talk: Talk): string {
+  const parts: string[] = [];
+  const authors = formatAuthors(talk);
+  if (authors) parts.push(authors);
+
+  const title = talk.title.en || talk.title.ja;
+  if (title) parts.push(title);
+
+  let text = parts.join(': ');
+
+  if (talk.event) {
+    const eventHtml = Object.keys(talk.links).length > 0
+      ? `<a href="${Object.values(talk.links)[0]}" class="text-accent hover:underline" target="_blank" rel="noopener">${talk.event}</a>`
+      : talk.event;
+    text += `, ${eventHtml}`;
+  }
+  if (talk.venue) text += `, ${talk.venue}`;
+
+  return text;
+}
+
+function formatDate(d: string): string {
+  if (!d) return '';
+  const monthNames = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const parts = d.split('-');
+  if (parts.length === 3) return `${monthNames[Number(parts[1])]} ${Number(parts[2])}, ${parts[0]}`;
+  if (parts.length === 2) return `${monthNames[Number(parts[1])]} ${parts[0]}`;
+  return d;
+}
+
+const invitedCount = talks.filter((t) => t.invited).length;
+const intlCount = talks.filter((t) => t.international).length;
+---
+
+<BaseLayout title="Talks - Kazuaki Tanaka" description="Kazuaki Tanaka - Talks">
+  <PageHeader title="Talks" />
+
+  <div class="text-sm text-text-muted mb-6 flex flex-wrap gap-3">
+    <span>Total: <strong class="text-text">{talks.length}</strong></span>
+    <span>Invited: <strong class="text-text">{invitedCount}</strong></span>
+    <span>International: <strong class="text-text">{intlCount}</strong></span>
+  </div>
+
+  <p class="text-sm text-text-muted mb-6 p-3 bg-gray-50 rounded-lg border border-border">
+    ※ Bold names indicate the speaker.
+  </p>
+
+  <div class="space-y-6">
+    {sections.map((section) => (
+      <div class="bg-bg-card rounded-xl border border-border shadow-sm p-6 sm:p-8">
+        <h2 class="text-lg font-bold text-primary mb-5 pb-3 border-b border-border flex items-center gap-2">
+          {section.label}
+          <span class="text-sm font-normal text-text-muted">({section.items.length})</span>
+        </h2>
+        <ul class="space-y-3">
+          {section.items.map((talk) => (
+            <li class="text-sm leading-relaxed">
+              <div class="flex items-start gap-2">
+                <span class="shrink-0 text-xs font-mono text-text-muted mt-0.5 w-24">{formatDate(talk.date)}</span>
+                <div>
+                  <span set:html={formatTalk(talk)} />
+                  <span class="inline-flex gap-1 ml-1">
+                    {talk.invited && <span class="text-[10px] px-1.5 py-0.5 rounded bg-amber-100 text-amber-800">Invited</span>}
+                  </span>
+                </div>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </div>
+</BaseLayout>

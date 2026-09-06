@@ -1,0 +1,98 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import { loadTalks, groupBy } from '../../lib/data';
+import type { Talk } from '../../lib/data';
+
+const talks = loadTalks();
+
+const intlOral = talks.filter((t) => t.international && t.type !== 'poster');
+const domesticOral = talks.filter((t) => !t.international && t.type !== 'poster' && t.type !== 'other');
+const posters = talks.filter((t) => t.type === 'poster');
+const others = talks.filter((t) => t.type === 'other');
+
+const sections = [
+  { label: '国際学会・シンポジウム（口頭発表）', items: intlOral },
+  { label: '国内学会・シンポジウム（口頭発表）', items: domesticOral },
+  { label: 'ポスター発表', items: posters },
+  { label: 'その他（セミナー、アウトリーチ活動）', items: others },
+].filter((s) => s.items.length > 0);
+
+function formatAuthors(talk: Talk): string {
+  return talk.authors.map((a) => {
+    return a.speaker ? `<strong>${a.name}</strong>` : a.name;
+  }).join(', ');
+}
+
+function formatTalk(talk: Talk): string {
+  const parts: string[] = [];
+  const authors = formatAuthors(talk);
+  if (authors) parts.push(authors);
+
+  const title = talk.title.ja || talk.title.en;
+  if (title) parts.push(title);
+
+  let text = parts.join(': ');
+
+  if (talk.event) {
+    const eventHtml = Object.keys(talk.links).length > 0
+      ? `<a href="${Object.values(talk.links)[0]}" class="text-accent hover:underline" target="_blank" rel="noopener">${talk.event}</a>`
+      : talk.event;
+    text += `, ${eventHtml}`;
+  }
+  if (talk.venue) text += `, ${talk.venue}`;
+
+  return text;
+}
+
+function formatDate(d: string): string {
+  if (!d) return '';
+  const parts = d.split('-');
+  if (parts.length === 3) return `${parts[0]}.${Number(parts[1])}.${Number(parts[2])}`;
+  if (parts.length === 2) return `${parts[0]}.${Number(parts[1])}`;
+  return d;
+}
+
+const invitedCount = talks.filter((t) => t.invited).length;
+const intlCount = talks.filter((t) => t.international).length;
+---
+
+<BaseLayout title="講演 - 田中 一成" description="田中 一成 講演一覧">
+  <PageHeader title="講演" subtitle="Talks" />
+
+  <div class="text-sm text-text-muted mb-6 flex flex-wrap gap-3">
+    <span>総数: <strong class="text-text">{talks.length}</strong>件</span>
+    <span>招待講演: <strong class="text-text">{invitedCount}</strong>件</span>
+    <span>国際発表: <strong class="text-text">{intlCount}</strong>件</span>
+  </div>
+
+  <p class="text-sm text-text-muted mb-6 p-3 bg-gray-50 rounded-lg border border-border">
+    ※ 太字が登壇者です。
+  </p>
+
+  <div class="space-y-6">
+    {sections.map((section) => (
+      <div class="bg-bg-card rounded-xl border border-border shadow-sm p-6 sm:p-8">
+        <h2 class="text-lg font-bold text-primary mb-5 pb-3 border-b border-border flex items-center gap-2">
+          {section.label}
+          <span class="text-sm font-normal text-text-muted">({section.items.length})</span>
+        </h2>
+        <ul class="space-y-3">
+          {section.items.map((talk) => (
+            <li class="text-sm leading-relaxed">
+              <div class="flex items-start gap-2">
+                <span class="shrink-0 text-xs font-mono text-text-muted mt-0.5 w-24">{formatDate(talk.date)}</span>
+                <div>
+                  <span set:html={formatTalk(talk)} />
+                  <span class="inline-flex gap-1 ml-1">
+                    {talk.invited && <span class="text-[10px] px-1.5 py-0.5 rounded bg-amber-100 text-amber-800">Invited</span>}
+                  </span>
+                </div>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </div>
+</BaseLayout>

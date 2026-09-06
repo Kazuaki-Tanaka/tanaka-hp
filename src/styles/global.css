@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-primary: #7b2d26;
+  --color-primary-light: #a3413a;
+  --color-primary-dark: #5a1f1a;
+  --color-bg: #f8f7f5;
+  --color-bg-card: #ffffff;
+  --color-text: #1e1e1e;
+  --color-text-muted: #6b7280;
+  --color-border: #e5e5e5;
+  --color-accent: #2563eb;
+  --color-section-bg: #faf9f7;
+}

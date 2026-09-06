@@ -1,0 +1,92 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Section from '../../components/Section.astro';
+import InfoList from '../../components/InfoList.astro';
+import Timeline from '../../components/Timeline.astro';
+import BadgeList from '../../components/BadgeList.astro';
+---
+
+<BaseLayout title="Kazuaki Tanaka" description="Kazuaki Tanaka - About Me">
+  <!-- Hero -->
+  <div class="bg-bg-card rounded-xl border border-border shadow-sm p-6 sm:p-8 mb-6">
+    <h1 class="text-3xl sm:text-4xl font-bold text-primary">Kazuaki Tanaka</h1>
+    <p class="text-text mt-3">Chief Researcher, Fundamental Research Dept., RICOS Co. Ltd.</p>
+    <p class="text-text">Adjunct Researcher, Research Institute for Science and Engineering, Waseda University</p>
+    <p class="text-text">Representative Director, Mathematics for Social Implementation Center (MaSIC)</p>
+    <p class="text-text-muted text-sm">Ph.D. / JST FOREST Researcher</p>
+  </div>
+
+  <div class="space-y-6">
+    <!-- Contact -->
+    <Section title="Contact">
+      <InfoList items={[
+        { label: "Email", value: "tanaka [at] ims.sci.waseda.ac.jp" },
+      ]} />
+    </Section>
+
+    <!-- Keywords -->
+    <Section title="Keywords">
+      <BadgeList items={["Validation Mathematics", "Deep Learning", "Partial Differential Equations", "Rigorous Computation", "Computer-Assisted Proofs", "Numerical Analysis"]} />
+    </Section>
+
+    <!-- Education -->
+    <Section title="Education">
+      <Timeline items={[
+        { period: "Apr. 2014 – Mar. 2017", description: "Graduate School of Fundamental Science and Engineering, Waseda University (Doctor course)" },
+        { period: "Apr. 2012 – Mar. 2014", description: "Graduate School of Fundamental Science and Engineering, Waseda University (Master course)" },
+        { period: "Apr. 2008 – Mar. 2012", description: "Department of Applied Mathematics, School of Fundamental Science and Engineering, Waseda University" },
+      ]} />
+    </Section>
+
+    <!-- Career -->
+    <Section title="Career">
+      <Timeline items={[
+        { period: "Sep. 2026 –", description: "Chief Researcher, Fundamental Research Dept., RICOS Co. Ltd." },
+        { period: "Sep. 2026 –", description: "Adjunct Researcher, Research Institute for Science and Engineering, Waseda University" },
+        { period: "Apr. 2026 –", description: "Representative Director, Mathematics for Social Implementation Center (MaSIC)" },
+        { period: "Apr. 2023 – Aug. 2026", description: "Associate Professor, Global Center for Science and Engineering, Faculty of Science and Engineering, Waseda University" },
+        { period: "Apr. 2018 – Mar. 2023", description: "Assistant Professor, Institute for Mathematical Science, Waseda University" },
+        { period: "Apr. 2017 – Mar. 2018", description: "Assistant Professor, Department of Applied Mathematics, Faculty of Science and Engineering, Waseda University" },
+      ]} />
+    </Section>
+
+    <!-- Prizes -->
+    <Section title="Prizes">
+      <div class="space-y-3">
+        {[
+          { year: "2023", title: "Engineering Education Award, Japanese Society for Engineering Education" },
+          { year: "2022", title: "Outstanding Presentation Award, JSST 2022" },
+          { year: "2022", title: "Grantees FOS Recipients, Funai Foundation For Information Technology" },
+          { year: "2020", title: "The 8th WASEDA e-Teaching Award (Grand Award)" },
+          { year: "2016", title: "Poster Award, Annual conference of JSIAM" },
+          { year: "2016", title: "Isao Okawa Memorial Achievement Award, Waseda University" },
+          { year: "2014", title: "Student Presentation Award, JSST 2014" },
+          { year: "2013", title: "Student Presentation Award, JSST 2013" },
+          { year: "2010", title: "Encouragement award, Waseda Manufacturing Contest" },
+        ].map((item) => (
+          <div class="flex gap-3 items-baseline">
+            <span class="text-sm font-mono text-primary shrink-0 w-12">{item.year}</span>
+            <span class="text-text">{item.title}</span>
+          </div>
+        ))}
+      </div>
+    </Section>
+
+    <!-- Academic Activities -->
+    <Section title="Academic Activities">
+      <div class="space-y-2.5">
+        {[
+          { period: "2022", description: "Organizer, International Workshop on Reliable Computing and Computer-Assisted Proofs (ReCAP 2022), March 13-18, Online" },
+          { period: "2019", description: "Organizer of Minisymposium \"Numerical verification methods and their application to differential equations\", ICIAM 2019, July 15-19, Valencia, Spain" },
+          { period: "2018", description: "Organization Committee, Secretary, SCAN 2018, Waseda University, Sep. 10-15, 2018" },
+          { period: "2018", description: "Local Organizer, SIAM Conference on Parallel Processing for Scientific Computing, Waseda University, Mar. 7-10, 2018" },
+        ].map((item) => (
+          <div class="flex gap-3 items-baseline">
+            <span class="text-sm text-text-muted shrink-0 w-14">{item.period}</span>
+            <span class="text-text">{item.description}</span>
+          </div>
+        ))}
+      </div>
+    </Section>
+  </div>
+</BaseLayout>

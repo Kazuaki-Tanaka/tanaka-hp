@@ -1,0 +1,79 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import { loadPublications, getPublicationTypeLabel, groupBy } from '../../lib/data';
+import type { Publication } from '../../lib/data';
+
+const pubs = loadPublications();
+const typeOrder = ['preprint', 'journal', 'non_refereed', 'proceedings', 'review', 'press_release'];
+const grouped = groupBy(pubs, (p) => p.type);
+const sections = typeOrder.filter((t) => grouped[t]?.length).map((t) => ({
+  type: t,
+  label: getPublicationTypeLabel(t, 'ja'),
+  items: grouped[t],
+}));
+
+function formatAuthors(pub: Publication): string {
+  return pub.authors.map((a) => {
+    const bold = a.me ? `<strong>${a.name}</strong>` : a.name;
+    return bold;
+  }).join(', ');
+}
+
+function formatPub(pub: Publication): string {
+  const parts: string[] = [];
+  const authors = formatAuthors(pub);
+  if (authors) parts.push(authors);
+
+  const title = pub.title.ja || pub.title.en;
+  if (title) parts.push(title);
+  if (pub.journal) parts.push(pub.journal);
+  if (pub.volume) parts.push(pub.volume);
+  if (pub.pages) parts.push(pub.pages);
+  if (pub.year) parts.push(`(${pub.year})`);
+
+  let text = parts.join(', ');
+
+  if (pub.note) text += `. ${pub.note}`;
+
+  const linkParts: string[] = [];
+  for (const [label, url] of Object.entries(pub.links)) {
+    linkParts.push(`<a href="${url}" class="text-accent hover:underline" target="_blank" rel="noopener">${label}</a>`);
+  }
+  if (linkParts.length) text += '. ' + linkParts.join(' ');
+
+  return text;
+}
+---
+
+<BaseLayout title="論文 - 田中 一成" description="田中 一成 論文一覧">
+  <PageHeader title="論文" subtitle="Publications" />
+
+  <div class="text-sm text-text-muted mb-6 flex flex-wrap gap-3">
+    <span>査読付き論文: <strong class="text-text">{pubs.filter(p => p.refereed).length}</strong>本</span>
+    <span>（うち筆頭/責任著者: <strong class="text-text">{pubs.filter(p => p.refereed && p.corresponding_author).length}</strong>本）</span>
+    <span>国際共著: <strong class="text-text">{pubs.filter(p => p.international_coauthor).length}</strong>本</span>
+  </div>
+
+  <div class="space-y-6">
+    {sections.map((section) => (
+      <div class="bg-bg-card rounded-xl border border-border shadow-sm p-6 sm:p-8">
+        <h2 class="text-xl font-bold text-primary mb-5 pb-3 border-b border-border flex items-center gap-2">
+          {section.label}
+          <span class="text-sm font-normal text-text-muted">({section.items.length})</span>
+        </h2>
+        <ul class="space-y-3">
+          {section.items.map((pub) => (
+            <li class="text-sm leading-relaxed pl-4 border-l-2 border-transparent hover:border-primary/30 transition-colors">
+              <span set:html={formatPub(pub)} />
+              <span class="inline-flex gap-1 ml-1">
+                {pub.refereed && <span class="text-[10px] px-1.5 py-0.5 rounded bg-primary/10 text-primary">査読</span>}
+                {pub.international_coauthor && <span class="text-[10px] px-1.5 py-0.5 rounded bg-blue-100 text-blue-700">国際共著</span>}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </div>
+</BaseLayout>

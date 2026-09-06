@@ -1,0 +1,2327 @@
+# 講演データ
+# type: oral | invited_oral | poster | other (seminar/outreach)
+# language: eng | jpn
+# country: ISO 3166-1 alpha-3 (JPN, DEU, FRA, ESP, etc.)
+
+- title:
+    en: Rigorous Solution Enclosures for Differential Equations via Neural-Network-Generated Sub- and Super-Solutions
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  - name: Kohei Yatabe
+  event: EASIAM 2026
+  venue: Jeju Oriental Hotel, Jeju, South Korea
+  date: '2026-08-27'
+  year: 2026
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: KOR
+  links:
+    EASIAM 2026: https://easiam26.github.io/contributed-talks-and-posters/
+- title:
+    en: Rigorous global search of all solution orbits for nonlinear boundary value problems
+    ja: ''
+  authors:
+  - name: Taisei Asai
+    speaker: true
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Satoshi Tanaka
+  - name: Shin'ichi Oishi
+  event: The 15th AIMS Conference
+  venue: School of Philosophy, National and Kapodistrian University of Athens, Greece
+  date: '2026-07-07'
+  year: 2026
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: GRC
+  links:
+    The 15th AIMS Conference: https://aimsconference.org/AIMS-Conference/conf-reg2026/ss/detail1.php?abs_no=516
+- title:
+    en: 'Green-Representable Solutions: Reformulating Sub- and Super-solution Theory for Poisson''s Equation'
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  - name: Ryoga Iwanami
+  - name: Kaname Matsue
+  - name: Hiroyuki Ochiai
+  event: SCAN 2025
+  venue: the University of Oldenburg, Germany
+  date: '2025-09-24'
+  year: 2025
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: DEU
+  links:
+    SCAN 2025: https://uol.de/en/scan2025
+- title:
+    en: Verified Computation of All Positive Solutions to a Hénon-Type Boundary Value Problem
+    ja: ''
+  authors:
+  - name: Taisei Asai
+    speaker: true
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Satoshi Tanaka
+  - name: Shin'Ichi Oishi
+  - name: Ryoga Iwanami
+  - name: Kaname Matsue
+  - name: Hiroyuki Ochiai
+  event: SCAN 2025
+  venue: the University of Oldenburg, Germany
+  date: '2025-09-24'
+  year: 2025
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: DEU
+  links:
+    SCAN 2025: https://uol.de/en/scan2025
+- title:
+    en: 'Green''s function-based framework for pointwise enclosures: Extending super- and sub-solutions of Poisson''s equation'
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  event: FJWNC 2025
+  venue: Sorbonne University, Paris, France
+  date: '2025-03-13'
+  year: 2025
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: FRA
+  links:
+    FJWNC 2025: https://ogilab.w.waseda.jp/FJWNC2025/
+- title:
+    en: 'PSTV: An Incremental Validator for 2D Delaunay Triangulation'
+    ja: ''
+  authors:
+  - name: Sora Sawai
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  - name: Katsuhisa Ozaki
+  - name: Shin'ichi Oishi
+  event: JSST 2024
+  venue: Kobe, Japan
+  date: '2024-09-17'
+  year: 2024
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links:
+    JSST 2024: https://jsst-conf.jp/2024/
+- title:
+    en: Numerical verification for multiple positive even solutions for the Hénon-type equation
+    ja: ''
+  authors:
+  - name: Taisei Asai
+    speaker: true
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Shin'ichi Oishi
+  event: JSST 2024
+  venue: Kobe, Japan
+  date: '2024-09-17'
+  year: 2024
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links:
+    JSST 2024: https://jsst-conf.jp/2024/
+- title:
+    en: Understanding from solution-enclosures - Using elliptic equations as a case study
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  event: JSST 2023
+  venue: ''
+  date: '2023-08-31'
+  year: 2023
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links:
+    JSST 2023: https://jsst-conf.jp/2023/
+- title:
+    en: Addressing Open Challenges in Exploring Positivity and Sign-Change in Solutions of Elliptic Equations
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  event: NMSP2023
+  venue: ''
+  date: '2023-08-27'
+  year: 2023
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links:
+    NMSP2023: https://www.smartchair.jp/conference/program/session_list/?conf_id=NMSP2023
+- title:
+    en: Rigorous solution-enclosures of elliptic boundary value problems between piecewise linear functions
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  - name: Kaname Matsue
+  - name: Hiroyuki Ochiai
+  event: ICIAM2023
+  venue: ''
+  date: '2023-08-22'
+  year: 2023
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links:
+    ICIAM2023: https://iciam2023.org/
+- title:
+    en: Verified Numerical Computations for multiple solutions of the Henon equation
+    ja: ''
+  authors:
+  - name: Taisei Asai
+    speaker: true
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Shin'ichi Oishi
+  event: ICIAM2023
+  venue: ''
+  date: '2023-08-22'
+  year: 2023
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links:
+    ICIAM2023: https://iciam2023.org/
+- title:
+    en: Rigorous simulation of reaction-diffusion models with neural networks
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  - name: Kohei Yatabe
+  - name: Taisei Asai
+  - name: Sora Sawai
+  event: JSST 2022
+  venue: Online
+  date: '2022-08-31'
+  year: 2022
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links:
+    JSST 2022: https://jsst-conf.jp/2022/
+- title:
+    en: Rigorous solution-enclosures of differential equations between sub- and super-solutions constructed by neural networks
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  - name: Kohei Yatabe
+  event: ReCAP 2022
+  venue: Online
+  date: '2022-03-17'
+  year: 2022
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links:
+    ReCAP 2022: https://www.recap.sci.waseda.ac.jp/recap2022/
+- title:
+    en: Verification of sign-change structure for elliptic partial differential equations
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  event: SCAN 2020
+  venue: Online
+  date: '2021-09-13'
+  year: 2021
+  type: invited_oral
+  invited: true
+  international: true
+  language: eng
+  country: JPN
+  links:
+    SCAN 2020: http://www.inf.u-szeged.hu/scan2020/program
+- title:
+    en: Constructive a priori error estimates for Poisson's equation with discontinuous coefficients
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  - name: Mitsuhiro T. Nakao
+  event: JSST 2021
+  venue: Online
+  date: '2021-09-02'
+  year: 2021
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links:
+    JSST 2021: https://jsst-conf.jp/2021/
+- title:
+    en: Numerical verification for positive solutions of the Hénon equation on some bounded domain
+    ja: ''
+  authors:
+  - name: Taisei Asai
+    speaker: true
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Shin'ichi Oishi
+  event: JSST 2021
+  venue: Online
+  date: '2021-09-02'
+  year: 2021
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links:
+    JSST 2021: https://jsst-conf.jp/2021/
+- title:
+    en: Numerical verification for positive global-in-time solutions of Allen-Cahn equation in three space dimensions using sub- and super-solution method
+    ja: ''
+  authors:
+  - name: Yuta Matsushima
+    speaker: true
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Shin'ichi Oishi
+  event: JSST 2019
+  venue: Miyazaki, Japan
+  date: '2019-11-05'
+  year: 2019
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links:
+    JSST 2019: http://jsst.jp/e/JSST2019/
+- title:
+    en: Numerical verification for asymmetric solutions of the Hénon equation
+    ja: ''
+  authors:
+  - name: Taisei Asai
+    speaker: true
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Shin'ichi Oishi
+  event: JSST 2019
+  venue: Miyazaki, Japan
+  date: '2019-11-05'
+  year: 2019
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links:
+    JSST 2019: http://jsst.jp/e/JSST2019/
+- title:
+    en: Rigorous solution-enclosures of elliptic problems and its application to the best embedding constants
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  - name: Kouta Sekine
+  event: ICIAM 2019
+  venue: ''
+  date: '2023-08-22'
+  year: 2023
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: ESP
+  links: {}
+- title:
+    en: Numerical verification method for elliptic problems with sign change information
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  - name: Kazunaga Tanaka
+  event: SCAN 2018
+  venue: Waseda University, Tokyo, Japan
+  date: '2018-09-13'
+  year: 2018
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links: {}
+- title:
+    en: Numerical verification method for positive solutions of Allen-Cahn equation using sub- and super-solution method
+    ja: ''
+  authors:
+  - name: Yuta Matsushima
+    speaker: true
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Shin'ichi Oishi
+  event: SCAN 2018
+  venue: Waseda University, Tokyo, Japan
+  date: '2018-09-13'
+  year: 2018
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links: {}
+- title:
+    en: Estimation of Sobolev embedding constant on a bounded convex domain
+    ja: ''
+  authors:
+  - name: Makoto Mizuguchi
+    speaker: true
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Kouta Sekine
+  - name: Shin'ichi Oishi
+  event: SCAN 2018
+  venue: Waseda University, Tokyo, Japan
+  date: '2018-09-14'
+  year: 2018
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links: {}
+- title:
+    en: Computer-assisted analysis of stationary problem of Allen-Cahn equation
+    ja: ''
+  authors:
+  - name: Shin'ichi Oishi
+    speaker: true
+  - name: Kazuaki Tanaka
+    me: true
+  event: International Workshop on Industrial Mathematics 2017
+  venue: Burjassot (València)
+  date: '2017-05-18'
+  year: 2017
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links:
+    International Workshop on Industrial Mathematics 2017: https://www.uv.es/iwimath17/
+- title:
+    en: Numerical method for estimating the best constant in Sobolev type inequality on unit square
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  - name: Kouta Sekine
+  - name: Makoto Mizuguchi
+  - name: Shin'ichi Oishi
+  event: INVA 2017
+  venue: Miyakojima-island, Okinawa, Japan
+  date: '2017-03-17'
+  year: 2017
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links:
+    INVA 2017: http://oishi.info.waseda.ac.jp/~inva2017/INVA2017/Home.html
+- title:
+    en: Verified numerical computation for stationary problem of Allen-Cahn equation
+    ja: ''
+  authors:
+  - name: Shin'ichi Oishi
+    speaker: true
+  - name: Kazuaki Tanaka
+    me: true
+  event: ANXIAM 2017
+  venue: Hahndorf, South Australia
+  date: '2017-02-05'
+  year: 2017
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: AUS
+  links: {}
+- title:
+    en: On verified numerical computation for positive solutions to elliptic boundary value problems
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  - name: Kouta Sekine
+  - name: Shin'ichi Oishi
+  event: SCAN 2016
+  venue: Uppsala Sweden
+  date: '2016-09-28'
+  year: 2016
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: SWE
+  links: {}
+- title:
+    en: A norm estimation for an inverse of linear operator using a minimal eigenvalue
+    ja: ''
+  authors:
+  - name: Kouta Sekine
+    speaker: true
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Shin'ichi Oishi
+  event: SCAN 2016
+  venue: Uppsala Sweden
+  date: '2016-09-28'
+  year: 2016
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: SWE
+  links: {}
+- title:
+    en: Verified numerical computations for blow-up solutions of ODEs
+    ja: ''
+  authors:
+  - name: Akitoshi Takayasu
+    speaker: true
+  - name: Kaname Matsue
+  - name: Takiko Sasaki
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Makoto Mizuguchi
+  - name: Shin'ichi Oishi
+  event: SCAN 2016
+  venue: Uppsala Sweden
+  date: '2016-09-28'
+  year: 2016
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: SWE
+  links: {}
+- title:
+    en: Rigorous numerical inclusions of positive solutions to elliptic problems
+    ja: ''
+  authors:
+  - name: Shin'ichi Oishi
+    speaker: true
+  - name: Kazuaki Tanaka
+    me: true
+  event: International Workshop on Enclosure Methods
+  venue: Freudenstadt, Germany
+  date: '2016-09-22'
+  year: 2016
+  type: invited_oral
+  invited: true
+  international: true
+  language: eng
+  country: DEU
+  links: {}
+- title:
+    en: Estimation for optimal constant satisfying an inequality for linear operator using minimal eigenvalue
+    ja: ''
+  authors:
+  - name: Kouta Sekine
+    speaker: true
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Shin'ichi Oishi
+  event: The fifth Asian Conference on Nonlinear Analysis and Optimization
+  venue: Niigata, Japan
+  date: '2016-08-02'
+  year: 2016
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links: {}
+- title:
+    en: On verified numerical computation for elliptic Dirichlet boundary value problems using sub- and super-solution method
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  - name: Shin'ichi Oishi
+  event: The fifth Asian Conference on Nonlinear Analysis and Optimization
+  venue: Niigata, Japan
+  date: '2016-08-02'
+  year: 2016
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links: {}
+- title:
+    en: Rigorous numerics of blowup solutions for ODEs
+    ja: ''
+  authors:
+  - name: Kaname Matsue
+    speaker: true
+  - name: Akitoshi Takayasu
+  - name: Takiko Sasaki
+  - name: Kazuaki Tanaka
+    me: true
+  - name: Makoto Mizuguchi
+  - name: Shin'ichi Oishi
+  event: The 11th AIMS Conference
+  venue: ''
+  date: '2016-07-01'
+  year: 2016
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links: {}
+- title:
+    en: Numerically verifiable condition for positivity of solution to elliptic equation
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  - name: Kouta Sekine
+  - name: Shin'ichi Oishi
+  event: The 11th East Asia SIAM
+  venue: Macao
+  date: '2016-06-20'
+  year: 2016
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: MAC
+  links: {}
+- title:
+    en: Numerical verification for positiveness of solutions to self-adjoint elliptic problems
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  - name: Kouta Sekine
+  - name: Makoto Mizuguchi
+  - name: Shin'ichi Oishi
+  event: JSST 2015
+  venue: Toyama, Japan
+  date: '2015-10-12'
+  year: 2015
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links: {}
+- title:
+    en: Computer-assisted analysis for solutions to nonlinear elliptic Neumann problems
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  - name: Shin'ichi Oishi
+  event: JSST 2014
+  venue: Kitakyushu, Japan
+  date: '2014-10-30'
+  year: 2014
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links: {}
+- title:
+    en: Numerical verification for periodic stationary solutions to the Allen-Cahn equation
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  - name: Shin'ichi Oishi
+  event: SCAN 2014
+  venue: Würzburg, Germany
+  date: '2014-09-25'
+  year: 2014
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: DEU
+  links: {}
+- title:
+    en: Numerical verification for stationary solutions to the Allen-Cahn equation
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  - name: Shin'ichi Oishi
+  event: INVA 2014
+  venue: Waseda Univ., Japan
+  date: '2014-03-15'
+  year: 2014
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links:
+    INVA 2014: http://www.oishi.info.waseda.ac.jp/~inva2014/INVA2014/Home.html
+- title:
+    en: Estimation of an embedding constant on Lipschitz domains using extension operators
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  - name: Makoto Mizuguchi
+  - name: Kouta Sekine
+  - name: Akitoshi Takayasu
+  - name: Shin'ichi Oishi
+  event: JSST 2013
+  venue: Tokyo, Japan
+  date: '2013-09-13'
+  year: 2013
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links: {}
+- title:
+    en: Verified norm estimation for the inverse of linear elliptic operators and its application
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  - name: Akitoshi Takayasu
+  - name: Xuefeng Liu
+  - name: Shin'ichi Oishi
+  event: The 9th East Asia SIAM
+  venue: Bandung
+  date: '2013-06-19'
+  year: 2013
+  type: oral
+  invited: false
+  international: true
+  language: eng
+  country: IDN
+  links: {}
+- title:
+    en: ''
+    ja: 数理科学とコントラスト変調中性子散乱の融合が切り拓く多成分系ナノ構造解析
+  authors:
+  - name: 眞弓皓一
+    speaker: true
+  - name: 小田達郎
+  - name: 宮島信也
+  - name: 大林一平
+  - name: 田中 一成
+    me: true
+  event: 第75回高分子討論会
+  venue: 東京理科大学 葛飾キャンパス
+  date: '2026-09-04'
+  year: 2026
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    第75回高分子討論会: https://www.spsj.or.jp/tohron/
+- title:
+    en: ''
+    ja: コントラスト変調SANSにおける部分散乱関数推定の高精度化：ベイズ推定の活用
+  authors:
+  - name: 眞弓皓一
+    speaker: true
+  - name: 宮島信也
+  - name: 大林一平
+  - name: 田中一成
+    me: true
+  event: 日本中性子科学会 第25回年会
+  venue: 理化学研究所
+  date: '2025-11-26'
+  year: 2025
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: AI時代の精度保証付き数値計算 ― 計算機援用証明の過去・現在・未来 ―
+  authors:
+  - name: 田中 一成
+    me: true
+    speaker: true
+  event: 岐阜数理科学セミナー
+  venue: 岐阜市生涯学習センター
+  date: '2025-11-07'
+  year: 2025
+  type: invited_oral
+  invited: true
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    岐阜数理科学セミナー: https://www1.gifu-u.ac.jp/~kajiwara/gms_seminar/index.html
+- title:
+    en: ''
+    ja: ガウス過程回帰によるコントラスト変調中性子小角散乱データの部分散乱関数への高精度な分解手法について
+  authors:
+  - name: 大林一平
+    speaker: true
+  - name: 宮島信也
+  - name: 田中 一成
+    me: true
+  - name: 眞弓皓一
+  event: 2025年度 統計関連学会連合大会
+  venue: 関西大学
+  date: '2025-09-08'
+  year: 2025
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    2025年度 統計関連学会連合大会: https://pub.confit.atlas.jp/ja/event/jfssa2025
+- title:
+    en: ''
+    ja: 異分野連携の実例：数理✕河川工学のシナジー
+  authors:
+  - name: 田中 一成
+    me: true
+    speaker: true
+  event: 数理・情報と諸科学の連携のための研究会2025
+  venue: 東京国際フォーラム
+  date: '2025-07-30'
+  year: 2025
+  type: invited_oral
+  invited: true
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    数理・情報と諸科学の連携のための研究会2025: https://sites.google.com/view/sohatu-math/
+- title:
+    en: ''
+    ja: コントラスト変調小角中性子散乱測定における部分散乱関数の数理的誤差評価
+  authors:
+  - name: 眞弓皓一
+    speaker: true
+  - name: 小田達郎
+  - name: 宮島信也
+  - name: 大林一平
+  - name: 田中一成
+    me: true
+  event: 日本中性子科学会 第24回年会
+  venue: 名古屋国際会議場
+  date: '2024-12-05'
+  year: 2024
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    日本中性子科学会 第24回年会: https://www.jsns.net/jsns2024top
+- title:
+    en: ''
+    ja: 'エノン型方程式の解の多重性の考察: 全解探索アプローチの適用'
+  authors:
+  - name: 浅井大晴
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 田中敏
+  - name: 大石進一
+  event: RIMS共同研究「計算科学に資する数値解析学の展開」
+  venue: 京都大学
+  date: '2024-10-25'
+  year: 2024
+  type: invited_oral
+  invited: true
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    計算科学に資する数値解析学の展開: https://na.nuap.nagoya-u.ac.jp/~rims2024/
+- title:
+    en: ''
+    ja: Green 関数による解包含理論：非凸多次元領域上における Poisson 方程式への適用
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  - name: 松江 要
+  - name: 落合啓之
+  event: 日本応用数理学会2024年度年会
+  venue: 京都大学
+  date: '2024-09-16'
+  year: 2024
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    日本応用数理学会2024年度年会: https://jsiam.org/jsiam_archive/past_meetings/annual2024/
+- title:
+    en: ''
+    ja: 計算機援用によるエノン型方程式の正値対称解の多重性解析
+  authors:
+  - name: 浅井大晴
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 大石進一
+  event: 日本応用数理学会2024年度年会
+  venue: 京都大学
+  date: '2024-09-16'
+  year: 2024
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    日本応用数理学会2024年度年会: https://jsiam.org/jsiam_archive/past_meetings/annual2024/
+- title:
+    en: ''
+    ja: 計算機援用によるscalar field方程式の符号変化球対称解の一意性証明
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  - name: 柏木雅英
+  - name: 内藤雄基
+  - name: 田中敏
+  event: 2024年度日本数学会秋季総合分科会
+  venue: 大阪大学
+  date: '2024-09-06'
+  year: 2024
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    2024年度日本数学会秋季総合分科会: https://www.mathsoc.jp/activity/meeting/osaka24sept/index.html
+- title:
+    en: ''
+    ja: 異分野連携の実例：中性子小角散乱法と誤差評価の数理
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  event: 数理・情報と諸科学の連携のための研究会
+  venue: 京都大学
+  date: '2024-07-16'
+  year: 2024
+  type: invited_oral
+  invited: true
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    数理・情報と諸科学の連携のための研究会: https://sites.google.com/view/sohatu2024-math/
+- title:
+    en: ''
+    ja: 優解劣解による解包含の可能性：楕円型境界値問題を中心に
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  - name: 松江 要
+  - name: 落合啓之
+  event: 北陸応用数理研究会 2024
+  venue: 石川県政しいのき迎賓館
+  date: '2024-03-25'
+  year: 2024
+  type: invited_oral
+  invited: true
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    北陸応用数理研究会 2024: https://sites.google.com/view/hokuriku-applied-math-seminar/
+- title:
+    en: ''
+    ja: 深層学習と精度保証付き数値計算：導入と微分方程式への応用を中心に
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  event: 第15回 三部会連携「応用数理セミナー」
+  venue: Zoom
+  date: '2023-12-27'
+  year: 2023
+  type: invited_oral
+  invited: true
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    第15回 三部会連携「応用数理セミナー」: https://tak-lab.github.io/JSIAM-Seminar-2023/
+- title:
+    en: ''
+    ja: ニューラルネットワークによる微分方程式解の包含と優解劣解法の再考
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  event: 東京大学数値解析セミナー（UTNAS）
+  venue: 東京大学
+  date: '2023-10-24'
+  year: 2023
+  type: invited_oral
+  invited: true
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    東京大学数値解析セミナー（UTNAS）: https://sites.google.com/g.ecc.u-tokyo.ac.jp/utnas-bulletin-board/2023#h.u7vfwj4hxv87
+- title:
+    en: ''
+    ja: エノン型方程式の正値対称解の多重性に関する考察
+  authors:
+  - name: 浅井大晴
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 大石進一
+  event: RIMS共同研究「新時代における高性能科学技術計算法の探究」
+  venue: 京都大学
+  date: '2023-10-19'
+  year: 2023
+  type: invited_oral
+  invited: true
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    RIMS共同研究「新時代における高性能科学技術計算法の探究」: https://rims-na2023.w.waseda.jp/index.html
+- title:
+    en: ''
+    ja: 深層学習と精度保証付き数値計算
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  event: 創発的研究支援事業 融合の場
+  venue: Zoom
+  date: '2023-05-13'
+  year: 2023
+  type: invited_oral
+  invited: true
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    創発的研究支援事業 融合の場: https://fusion2023dl.s-top.dev/
+- title:
+    en: ''
+    ja: 区分線形関数による優解劣解の構成と楕円型境界値問題への応用
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  - name: 松江要
+  - name: 落合啓之
+  event: 日本応用数理学会第19回研究部会連合発表会
+  venue: 岡山理科大学
+  date: '2023-03-08'
+  year: 2023
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    日本応用数理学会第19回研究部会連合発表会: https://jsiam.org/union2023
+- title:
+    en: ''
+    ja: 楕円型偏微分方程式の解符号検証法といくつかの課題
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  event: 科学計算・計測工学連携ワークショップ
+  venue: ニュー阿寒ホテル
+  date: '2023-03-05'
+  year: 2023
+  type: invited_oral
+  invited: true
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 微分方程式に対する精度保証付き数値計算法とニューラルネットワークによる解の包含
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  event: RIMS共同研究 数値解析が拓く次世代情報社会
+  venue: 京都大学
+  date: '2022-10-13'
+  year: 2022
+  type: invited_oral
+  invited: true
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    数値解析が拓く次世代情報社会: http://sudalab.is.s.u-tokyo.ac.jp/~rims2022/
+- title:
+    en: ''
+    ja: 2次元領域における三角形分割の事後保証法
+  authors:
+  - name: 沢井宇宙
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 尾崎克久
+  - name: 大石進一
+  event: 日本応用数理学会2022年度年会
+  venue: 北海道大学
+  date: '2022-09-10'
+  year: 2022
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    日本応用数理学会2022年度年会: https://jsiam.org/annual2022/
+- title:
+    en: ''
+    ja: Batt-Faltenbacher-Horst方程式の解の精度保証付き数値計算
+  authors:
+  - name: 多田秀介
+    speaker: true
+  - name: 浅井大晴
+  - name: 田中一成
+    me: true
+  - name: 大石進一
+  event: 日本応用数理学会2022年度年会
+  venue: 北海道大学
+  date: '2022-09-10'
+  year: 2022
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    日本応用数理学会2022年度年会: https://jsiam.org/annual2022/
+- title:
+    en: ''
+    ja: 楕円型偏微分方程式の解の包含から分かること
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  event: 第3回 数学と諸分野の連携に向けた若手数学者交流会
+  venue: オンライン
+  date: '2022-03-07'
+  year: 2022
+  type: invited_oral
+  invited: true
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    第3回 数学と諸分野の連携に向けた若手数学者交流会: https://www.jst.go.jp/kisoken/aip/result/event/math-challenge2022/index.html
+- title:
+    en: ''
+    ja: 楕円型境界値問題の自明解の確定条件とその応用
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  event: JST/CREST 成果報告会
+  venue: Zoom
+  date: '2021-11-27'
+  year: 2021
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    JST/CREST 成果報告会: http://verifiedby.me/nvr2021/
+- title:
+    en: ''
+    ja: 常微分方程式に対する計算機援用解析
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  event: RIMS共同研究 常微分方程式の定性的理論とその応用
+  venue: Zoom
+  date: '2021-11-11'
+  year: 2021
+  type: invited_oral
+  invited: true
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    常微分方程式の定性的理論とその応用: https://sites.google.com/view/rims-meeting-2021-nov
+- title:
+    en: ''
+    ja: 精度保証付き数値計算を用いた1次元エノン型方程式に対する分岐解析
+  authors:
+  - name: 浅井大晴
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 関根晃太
+  - name: 大石進一
+  event: RIMS共同研究 常微分方程式の定性的理論とその応用
+  venue: Zoom
+  date: '2021-11-11'
+  year: 2021
+  type: invited_oral
+  invited: true
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    常微分方程式の定性的理論とその応用: https://sites.google.com/view/rims-meeting-2021-nov
+- title:
+    en: ''
+    ja: 優解劣解法による微分方程式の解の精度保証法とニューラルネットワーク近似への応用
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  - name: 矢田部浩平
+  event: 日本応用数理学会2021年度年会
+  venue: Zoom
+  date: '2021-09-09'
+  year: 2021
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    日本応用数理学会2021年度年会: https://annual2021.jsiam.org/
+- title:
+    en: ''
+    ja: 1次元エノン方程式の分岐図に対する計算機援用解析
+  authors:
+  - name: 浅井大晴
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 大石進一
+  event: 日本応用数理学会2021年度年会
+  venue: Zoom
+  date: '2021-09-09'
+  year: 2021
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    日本応用数理学会2021年度年会: https://annual2021.jsiam.org/
+- title:
+    en: ''
+    ja: 不連続拡散係数を持つ３次元ポアソン方程式の解に対する事前誤差評価
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  - name: 中尾 充宏
+  event: 応用数理学会2021年研究部会連合発表会
+  venue: ''
+  date: '2021-03-04'
+  year: 2021
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    応用数理学会2021年研究部会連合発表会: http://union2021.jsiam.org/
+- title:
+    en: ''
+    ja: 特異関数を用いた1次元エノン方程式の解の精度保証付き数値計算
+  authors:
+  - name: 浅井大晴
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 大石進一
+  event: 応用数理学会2021年研究部会連合発表会
+  venue: ''
+  date: '2021-03-04'
+  year: 2021
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    応用数理学会2021年研究部会連合発表会: http://union2021.jsiam.org/
+- title:
+    en: ''
+    ja: エノン方程式の解に対する正値性検証法
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  event: NVR 2020
+  venue: ''
+  date: '2020-11-29'
+  year: 2020
+  type: invited_oral
+  invited: true
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    NVR 2020: http://verifiedby.me/nvr2020/
+- title:
+    en: ''
+    ja: 精度保証付き数値計算を用いたHénon方程式の対称性に関する考察
+  authors:
+  - name: 浅井大晴
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 大石進一
+  event: NVR 2020
+  venue: ''
+  date: '2020-11-29'
+  year: 2020
+  type: invited_oral
+  invited: true
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    NVR 2020: http://verifiedby.me/nvr2020/
+- title:
+    en: ''
+    ja: 楕円型境界値問題に対する解符号の事後検証法
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  - name: 浅井大晴
+  event: 日本応用数理学会2020年度年会
+  venue: Zoom
+  date: '2020-09-10'
+  year: 2020
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 精度保証付き数値計算を用いたHenon方程式の多重解の存在証明
+  authors:
+  - name: 浅井大晴
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 大石進一
+  event: 日本応用数理学会2020年度年会
+  venue: Zoom
+  date: '2020-09-10'
+  year: 2020
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: A priori error estimates for Poisson's equation with discontinuous coefficients
+    ja: ''
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  - name: 中尾充宏
+  event: 日本応用数理学会2019年度連合発表会
+  venue: 中央大学, 2020年3月
+  date: '2021-09-02'
+  year: 2021
+  type: oral
+  invited: false
+  international: false
+  language: eng
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 優解劣解法を用いた Allen-Cahn 方程式の正値解に対する精度保証付き数値計算
+  authors:
+  - name: 松嶋佑汰
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 大石進一
+  event: 2019年度応用数学合同研究集会
+  venue: 龍谷大学
+  date: '2019-12-14'
+  year: 2019
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 精度保証付き数値計算を用いた Henon 方程式の非対称解の存在証明
+  authors:
+  - name: 浅井大晴
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 大石進一
+  event: 2019年度応用数学合同研究集会
+  venue: 龍谷大学
+  date: '2019-12-13'
+  year: 2019
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 楕円型方程式の弱解に対する正値性証明法
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  event: 日本応用数理学会2019年度年会
+  venue: 東京大学, 2019年9月
+  date: 2019-09
+  year: 2019
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 空間3次元Allen-Cahn方程式の正値時間大域解に対する精度保証付き数値計算法
+  authors:
+  - name: 松嶋佑汰
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 大石進一
+  event: 日本応用数理学会2019年度年会
+  venue: 東京大学, 2019年9月
+  date: 2019-09
+  year: 2019
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: Henon方程式の非対称解に対する精度保証付き数値計算
+  authors:
+  - name: 浅井大晴
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 大石進一
+  event: 日本応用数理学会2019年度年会
+  venue: 東京大学, 2019年9月
+  date: 2019-09
+  year: 2019
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 精度保証付き数値計算を用いた楕円型境界値問題の解の符号変化構造解析
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  event: 若手数学者交流会
+  venue: JST東京本部
+  date: '2019-03-16'
+  year: 2019
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 半線形楕円型境界値問題の高エネルギー解に対する精度保証付き数値計算
+  authors:
+  - name: 酒井将大
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 大石進一
+  event: 日本応用数理学会2017年度連合発表会
+  venue: 大阪大学, 2018年3月
+  date: 2018-03
+  year: 2018
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 優解劣解法を用いたアレンカーン方程式の解の精度保証付き数値計算
+  authors:
+  - name: 松嶋佑汰
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 大石進一
+  event: 日本応用数理学会2017年度連合発表会
+  venue: 大阪大学, 2018年3月
+  date: 2018-03
+  year: 2018
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 前処理ソート付き逐次添加法によるドロネー性保証付き三角形分割法
+  authors:
+  - name: 若山馨太
+    speaker: true
+  - name: 金子直樹
+  - name: 田中一成
+    me: true
+  - name: 関根晃太
+  - name: 尾崎克久
+  - name: 大石進一
+  event: 日本応用数理学会2017年度年会
+  venue: 武蔵野大学, 2017年9月
+  date: 2017-09
+  year: 2017
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 線形化問題の精度保証を利用した非線形楕円型境界値問題の精度保証結果の改善
+  authors:
+  - name: 酒井将大
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 大石進一
+  event: 日本応用数理学会2016年度連合発表会
+  venue: 電気通信大学, 2017年3月
+  date: 2017-03
+  year: 2017
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 楕円型微分方程式の正値解に対する精度保証付き数値計算法
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  - name: 関根晃太
+  - name: 大石進一
+  event: RIMS研究集会「現象解明に向けた数値解析学の新展開II」
+  venue: 2016年10月
+  date: 2016-10
+  year: 2016
+  type: invited_oral
+  invited: true
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: ある無限次元固有値を用いた楕円型偏微分方程式の解の存在性に対する計算機援用証明法
+  authors:
+  - name: 関根晃太
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 大石進一
+  event: RIMS研究集会「現象解明に向けた数値解析学の新展開II」
+  venue: 2016年10月
+  date: 2016-10
+  year: 2016
+  type: invited_oral
+  invited: true
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 有界な凸領域における連立楕円型偏微分方程式の解の計算機援用存在証明法
+  authors:
+  - name: 関根晃太
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 大石進一
+  event: The Twenty-Eighth RAMP Symposium
+  venue: 2016年10月
+  date: 2016-10
+  year: 2016
+  type: invited_oral
+  invited: true
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 放物面コンパクト化を用いる常微分方程式の爆発解の数値的検証法
+  authors:
+  - name: 高安亮紀
+    speaker: true
+  - name: 松江要
+  - name: 佐々木多希子
+  - name: 田中一成
+    me: true
+  - name: 水口信
+  - name: 大石進一
+  event: 日本応用数理学会2015年度連合発表会
+  venue: 神戸学院大学, 2016年3月
+  date: 2016-03
+  year: 2016
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: Verified numerical enclosure of blow-up time for ODEs
+    ja: ''
+  authors:
+  - name: 高安亮紀
+    speaker: true
+  - name: 松江要
+  - name: 佐々木多希子
+  - name: 田中一成
+    me: true
+  - name: 水口信
+  - name: 大石進一
+  event: 日本数学会2015年度年会
+  venue: 京都産業大学, 2015年9月
+  date: 2015-09
+  year: 2015
+  type: oral
+  invited: false
+  international: false
+  language: eng
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 逐次添加法による三角形分割のDelaunay性に対する数値的検証法
+  authors:
+  - name: 若山馨太
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 関根晃太
+  - name: 尾崎克久
+  - name: 大石進一
+  event: 日本応用数理学会2015年度年会
+  venue: 金沢大学, 2015年9月
+  date: 2015-09
+  year: 2015
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 楕円型偏微分方程式の解の正値性に対する数値的検証法
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  - name: 関根晃太
+  - name: 水口信
+  - name: 大石進一
+  event: 日本応用数理学会2015年度年会
+  venue: 金沢大学, 2015年9月
+  date: 2015-09
+  year: 2015
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 常微分方程式の爆発解に対する精度保証付き数値計算
+  authors:
+  - name: 高安亮紀
+    speaker: true
+  - name: 松江要
+  - name: 佐々木多希子
+  - name: 田中一成
+    me: true
+  - name: 水口信
+  - name: 大石進一
+  event: 日本応用数理学会2015年度年会
+  venue: 金沢大学, 2015年9月
+  date: 2015-09
+  year: 2015
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 同次Dirichlet境界条件における埋め込み定数の評価について
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  event: 第18回環瀬戸内ワークショップ
+  venue: 2015年8月
+  date: 2015-08
+  year: 2015
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 常微分方程式の解の爆発時刻に対する精度保証付き数値計算
+  authors:
+  - name: 高安亮紀
+    speaker: true
+  - name: 松江要
+  - name: 佐々木多希子
+  - name: 田中一成
+    me: true
+  - name: 水口信
+  - name: 大石進一
+  event: 第44回数値解析シンポジウム
+  venue: 山梨県甲州市, 2015年6月
+  date: 2015-06
+  year: 2015
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 偏微分方程式の解の正値性に対する数値的検証法
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  - name: 水口信
+  - name: 関根晃太
+  - name: 大石進一
+  event: CRESTシンポジウム
+  venue: 北九州国際会議場, 2015年3月
+  date: 2015-03
+  year: 2015
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: ODEの爆発解に対する精度保証付き数値計算
+  authors:
+  - name: 高安亮紀
+    speaker: true
+  - name: 松江要
+  - name: 佐々木多希子
+  - name: 田中一成
+    me: true
+  - name: 大石進一
+  event: CRESTシンポジウム
+  venue: 北九州国際会議場, 2015年3月
+  date: 2015-03
+  year: 2015
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: シグマノルムを利用した精度保証付き数値計算法の連立楕円型偏微分方程式への応用
+  authors:
+  - name: 関根晃太
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 高安亮紀
+  - name: 山崎憲
+  event: 第47回日本大学生産工学部学術講演会
+  venue: 2014年12月
+  date: 2014-12
+  year: 2014
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 重み付きノルムによる特異摂動問題の精度保証付き数値計算結果の改善
+  authors:
+  - name: 関根晃太
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 高安亮紀
+  - name: 大石進一
+  event: 日本応用数理学会2014年度年会
+  venue: 政策研究大学院大学, 2014年9月
+  date: 2014-09
+  year: 2014
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: An a priori estimation of the Sobolev embedding constant and its application
+    ja: ''
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  - name: 水口信
+  - name: 関根晃太
+  - name: 大石進一
+  event: 第10回日本応用理学会研究部会連合発表会
+  venue: 京都大学, 2014年3月
+  date: 2014-03
+  year: 2014
+  type: oral
+  invited: false
+  international: false
+  language: eng
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 線形楕円型作用素のNeumann条件下における精度保証付き逆作用素ノルム評価
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  - name: 高安亮紀
+  - name: 劉雪峰
+  - name: 大石進一
+  event: 日本応用数理学会2013年度年会
+  venue: アクロス福岡, 2013年9月
+  date: 2013-09
+  year: 2013
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 逆作用素ノルム評価を用いた楕円型Neumann境界値問題の解に対する精度保証付き数値計算
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  - name: 高安亮紀
+  - name: 劉雪峰
+  - name: 大石進一
+  event: 日本応用数理学会2013年度連合発表会
+  venue: 東洋大学, 2013年3月
+  date: 2013-03
+  year: 2013
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 線形楕円型作用素のNeumann条件下における精度保証付き逆作用素ノルム評価
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  - name: 高安亮紀
+  - name: 劉雪峰
+  - name: 大石進一
+  event: 日本応用数理学会2012年度年会
+  venue: 稚内, 2012年8月
+  date: 2012-08
+  year: 2012
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: ある固有値評価を利用した線形楕円型作用素の逆作用素に対する精度保証付きノルム評価
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  - name: 高安亮紀
+  - name: 大石進一
+  event: 第41回数値解析シンポジウム
+  venue: 群馬県, 2012年6月
+  date: 2012-06
+  year: 2012
+  type: oral
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: Adaptive Growth Learning Method for Verified Neural Solvers of Differential Equations
+    ja: ''
+  authors:
+  - name: Audrey Chen
+    speaker: true
+  - name: Chenjian XU
+  - name: Kazuaki Tanaka
+    me: true
+  event: EASIAM 2026
+  venue: Jeju Oriental Hotel, Jeju, South Korea
+  date: '2026-08-25'
+  year: 2026
+  type: poster
+  invited: false
+  international: true
+  language: eng
+  country: KOR
+  links:
+    EASIAM 2026: https://easiam26.github.io/contributed-talks-and-posters/
+- title:
+    en: ''
+    ja: コントラスト変調小角中性子散乱のベイズ推定・ガウス過程回帰によるデータ解析の信頼性定量化・高精度化
+  authors:
+  - name: 大林一平
+    speaker: true
+  - name: 宮島信也
+  - name: 田中 一成
+    me: true
+  - name: 眞弓皓一
+  event: オープンイノベーション Match Up vol.5
+  venue: 岡山大学創立五十周年記念館, 岡山市
+  date: '2026-05-26'
+  year: 2026
+  type: poster
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    オープンイノベーション Match Up vol.5: https://oistart.okayama-u.ac.jp/news/news_990/
+- title:
+    en: Iterative Greedy Backward Pruning in the Adaptive Growth Learning Method
+    ja: ''
+  authors:
+  - name: Audrey Chen
+    speaker: true
+  - name: Chenjian XU
+  - name: Kazuaki Tanaka
+    me: true
+  event: 日本応用数理学会若手の会第11回学生研究発表会
+  venue: 東京大学本郷キャンパス工学部6号館3階セミナー室AD
+  date: '2026-03-12'
+  year: 2026
+  type: poster
+  invited: false
+  international: false
+  language: eng
+  country: JPN
+  links:
+    日本応用数理学会若手の会第11回学生研究発表会: http://wakate.jsiam.org/wp-content/uploads/2026/03/%E7%AC%AC11%E5%9B%9E%E5%AD%A6%E7%94%9F%E7%A0%94%E7%A9%B6%E7%99%BA%E8%A1%A8%E4%BC%9A_%E7%99%BA%E8%A1%A8%E8%80%85%E3%83%AA%E3%82%B9%E3%83%88_Web%E5%85%AC%E9%96%8B%E7%94%A8.pdf
+- title:
+    en: 'Rigorous Verification of PINNs: Training Networks for Strict Error Bounds'
+    ja: ''
+  authors:
+  - name: Kazuaki Tanaka
+    me: true
+    speaker: true
+  - name: Kohei Yatabe
+  event: MLDS 5 & DEDS 2026
+  venue: Kyoto University
+  date: '2026-02-10'
+  year: 2026
+  type: poster
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links:
+    MLDS 5 & DEDS 2026: https://sites.google.com/view/mlds-deds-2026
+- title:
+    en: ''
+    ja: ニューラルネットワークによる優解・劣解生成と解の厳密包含
+  authors:
+  - name: 田中 一成
+    me: true
+    speaker: true
+  - name: 矢田部 浩平
+  event: 第28回情報論的学習理論ワークショップ
+  venue: 那覇
+  date: '2025-11-12'
+  year: 2025
+  type: poster
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    第28回情報論的学習理論ワークショップ: https://ibisml.org/ibis2025/posters/
+- title:
+    en: Bounding ODE Solutions with Neural Operator–Based Sub- and Super-Solutions
+    ja: ''
+  authors:
+  - name: Chenjian XU
+    speaker: true
+  - name: 田中 一成
+    me: true
+  event: 第28回情報論的学習理論ワークショップ
+  venue: 那覇
+  date: '2025-11-12'
+  year: 2025
+  type: poster
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links:
+    第28回情報論的学習理論ワークショップ: https://ibisml.org/ibis2025/posters/
+- title:
+    en: Rigorous Enclosure of ODE Solutions Using Neural Operator-Based Sub- and Super-Solution
+    ja: ''
+  authors:
+  - name: Chenjian XU
+    speaker: true
+  - name: 田中 一成
+    me: true
+  event: 日本応用数理学会2025年度年会
+  venue: 東京理科大学
+  date: '2025-09-03'
+  year: 2025
+  type: poster
+  invited: false
+  international: true
+  language: eng
+  country: JPN
+  links:
+    日本応用数理学会2025年度年会: https://jsiam.org/jsiam_archive/past_meetings/annual2025/
+- title:
+    en: ''
+    ja: 対数型特異性を含む広義2重積分の精度保証法とその応用
+  authors:
+  - name: 岩波龍雅
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 柏木雅英
+  event: 日本応用数理学会若手の会第10回学生研究発表会
+  venue: 岡山
+  date: '2025-03-08'
+  year: 2025
+  type: poster
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 対数ポテンシャルを含む2重積分の精度保証
+  authors:
+  - name: 岩波龍雅
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 柏木雅英
+  event: Waseda SIAM Student Chapter第1回早大京大合同研究会
+  venue: 京都大学
+  date: '2024-09-13'
+  year: 2024
+  type: poster
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 精度保証付き数値計算を用いた楕円型境界値問題の解の符号変化構造解析
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  event: 若手数学者交流会
+  venue: JST東京本部
+  date: '2019-03-16'
+  year: 2019
+  type: poster
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: アレン・カーン方程式の解に対する精度保証付き数値計算
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  event: CREST・さきがけ合同シンポジウム
+  venue: 秋葉原
+  date: '2018-01-21'
+  year: 2018
+  type: poster
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 精度保証付きドロネー三角形分割の計算手法に対する考察
+  authors:
+  - name: 若山馨太
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 関根晃太
+  - name: 尾崎克久
+  - name: 大石進一
+  event: 異分野・異業種研究交流会2016
+  venue: 明治大学, 2016年11月
+  date: 2016-11
+  year: 2016
+  type: poster
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: Delaunay三角形分割の精度保証付き数値計算手法に対する考察
+  authors:
+  - name: 若山馨太
+    speaker: true
+  - name: 田中一成
+    me: true
+  - name: 関根晃太
+  - name: 尾崎克久
+  - name: 大石進一
+  event: 日本応用数理学会2016年度年会
+  venue: 北九州, 2016年9月
+  date: 2016-09
+  year: 2016
+  type: poster
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 偏微分方程式の正値解に対する精度保証付き数値計算
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  - name: 関根晃太
+  - name: 大石進一
+  event: 第3回JST数学領域横断若手合宿
+  venue: ウェスティンホテル淡路, 2016年2月
+  date: 2016-02
+  year: 2016
+  type: poster
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: クラウド教育システムCES-Alphaは教育と研究にどう貢献するか？
+  authors: []
+  event: 武蔵野大学第64回MCMEセミナー
+  venue: 武蔵野大学
+  date: '2024-01-17'
+  year: 2024
+  type: other
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links:
+    武蔵野大学第64回MCMEセミナー: https://www.musashino-u.ac.jp/research/laboratory/mathematical_engineering/seminar_symposium.html
+- title:
+    en: Introduction to Verified Numerical Computation
+    ja: ''
+  authors: []
+  event: JSTさくらサイエンスプラン
+  venue: Online
+  date: '2021-02-15'
+  year: 2021
+  type: other
+  invited: false
+  international: false
+  language: eng
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 偏微分方程式に対する精度保証付き数値計算と符号変化構造解析への応用
+  authors: []
+  event: 京都大学応用数学セミナー(KUAMS)
+  venue: ''
+  date: '2019-12-17'
+  year: 2019
+  type: other
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
+- title:
+    en: ''
+    ja: 早稲田オープン・イノベーション・フォーラム2019（出展代表）
+  authors:
+  - name: 田中一成
+    me: true
+    speaker: true
+  event: 早稲田オープン・イノベーション・フォーラム2019
+  venue: ''
+  date: '2019-03-05'
+  year: 2019
+  type: other
+  invited: false
+  international: false
+  language: jpn
+  country: JPN
+  links: {}
