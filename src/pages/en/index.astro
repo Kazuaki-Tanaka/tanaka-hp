@@ -76,14 +76,18 @@ import BadgeList from '../../components/BadgeList.astro';
     <Section title="Academic Activities">
       <div class="space-y-2.5">
         {[
-          { period: "2022", description: "Organizer, International Workshop on Reliable Computing and Computer-Assisted Proofs (ReCAP 2022), March 13-18, Online" },
-          { period: "2019", description: "Organizer of Minisymposium \"Numerical verification methods and their application to differential equations\", ICIAM 2019, July 15-19, Valencia, Spain" },
+          { period: "2022", description: "Organizer, International Workshop on Reliable Computing and Computer-Assisted Proofs (ReCAP 2022), March 13-18, Online", url: "https://www.recap.sci.waseda.ac.jp/recap2022/" },
+          { period: "2019", description: "Organizer of Minisymposium \"Numerical verification methods and their application to differential equations\", ICIAM 2019, July 15-19, Valencia, Spain", url: "https://iciam.org/events/2019/jul/14/iciam-2019-valencia-spain" },
           { period: "2018", description: "Organization Committee, Secretary, SCAN 2018, Waseda University, Sep. 10-15, 2018" },
-          { period: "2018", description: "Local Organizer, SIAM Conference on Parallel Processing for Scientific Computing, Waseda University, Mar. 7-10, 2018" },
+          { period: "2018", description: "Local Organizer, SIAM Conference on Parallel Processing for Scientific Computing, Waseda University, Mar. 7-10, 2018", url: "http://siampp18.jsiam.org/" },
         ].map((item) => (
           <div class="flex gap-3 items-baseline">
             <span class="text-sm text-text-muted shrink-0 w-14">{item.period}</span>
-            <span class="text-text">{item.description}</span>
+            {item.url ? (
+              <a href={item.url} class="text-accent hover:underline" target="_blank" rel="noopener">{item.description}</a>
+            ) : (
+              <span class="text-text">{item.description}</span>
+            )}
           </div>
         ))}
       </div>

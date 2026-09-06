@@ -106,29 +106,33 @@ import BadgeList from '../../components/BadgeList.astro';
     <Section title="学会活動">
       <div class="space-y-2.5">
         {[
-          { period: "2026年2月", description: "オーガナイザー 富山数理ワークショップ 2026" },
-          { period: "2025年3月", description: "ローカルオーガナイザー 数学ソフトウェアとフリードキュメント 37" },
-          { period: "2025年3月", description: "オーガナイザー 富山数理ワークショップ 2025" },
-          { period: "2024年2月", description: "オーガナイザー 富山数理ワークショップ 2024" },
-          { period: "2023年11月", description: "オーガナイザー 数理科学者と解く！神経科学のオープンプロブレム" },
-          { period: "2023年9月", description: "オーガナイザー 第7回 JST 数学領域 未解決問題ワークショップ" },
-          { period: "2023年9月", description: "オーガナイザー 創発的研究支援事業 融合の場 第2回集会" },
-          { period: "2023年8月", description: "Executive Committee, Secretary, ICIAM2023" },
-          { period: "2023年5月", description: "オーガナイザー 創発的研究支援事業 融合の場" },
+          { period: "2026年2月", description: "オーガナイザー 富山数理ワークショップ 2026", url: "https://sites.google.com/view/toyamath2026/" },
+          { period: "2025年3月", description: "ローカルオーガナイザー 数学ソフトウェアとフリードキュメント 37", url: "https://www.mathlibre.org/msfd/37-ja.html" },
+          { period: "2025年3月", description: "オーガナイザー 富山数理ワークショップ 2025", url: "https://sites.google.com/view/toyamath2025/" },
+          { period: "2024年2月", description: "オーガナイザー 富山数理ワークショップ 2024", url: "https://sites.google.com/view/toyamath2024/" },
+          { period: "2023年11月", description: "オーガナイザー 数理科学者と解く！神経科学のオープンプロブレム", url: "https://sites.google.com/view/neuro-mathematics2023" },
+          { period: "2023年9月", description: "オーガナイザー 第7回 JST 数学領域 未解決問題ワークショップ", url: "https://sites.google.com/view/openproblem2023/" },
+          { period: "2023年9月", description: "オーガナイザー 創発的研究支援事業 融合の場 第2回集会", url: "https://fusion2023dl-2nd.s-top.dev/" },
+          { period: "2023年8月", description: "Executive Committee, Secretary, ICIAM2023", url: "https://iciam2023.org/" },
+          { period: "2023年5月", description: "オーガナイザー 創発的研究支援事業 融合の場", url: "https://fusion2023dl.s-top.dev/" },
           { period: "2022年10月", description: "実行委員 異分野・異業種研究交流会2022" },
-          { period: "2022年9月", description: "オーガナイザー 第6回 JST 数学領域 未解決問題ワークショップ" },
-          { period: "2022年7月", description: "オーガナイザー Neuro2022サテライト企画" },
-          { period: "2019 – 2022年", description: "学会誌『応用数理』編集委員（2020 – 2022年 主査）" },
-          { period: "2022年3月", description: "Organizer, ReCAP 2022" },
-          { period: "2021年11月", description: "実行委員 異分野・異業種研究交流会2021" },
-          { period: "2021年9月", description: "代表オーガナイザー 第5回 JST 数学領域 未解決問題ワークショップ" },
-          { period: "2019年7月", description: "Organizer of Minisymposium, ICIAM 2019" },
+          { period: "2022年9月", description: "オーガナイザー 第6回 JST 数学領域 未解決問題ワークショップ", url: "https://sites.google.com/view/openproblem2022/" },
+          { period: "2022年7月", description: "オーガナイザー Neuro2022サテライト企画", url: "https://sites.google.com/araya.org/neuro2022math/" },
+          { period: "2019 – 2022年", description: "学会誌『応用数理』編集委員（2020 – 2022年 主査）", url: "https://jsiam.org/publication/bjsiam/" },
+          { period: "2022年3月", description: "Organizer, ReCAP 2022", url: "https://www.recap.sci.waseda.ac.jp/recap2022/" },
+          { period: "2021年11月", description: "実行委員 異分野・異業種研究交流会2021", url: "https://www.mathsoc.jp/publicity/news20210910.html" },
+          { period: "2021年9月", description: "代表オーガナイザー 第5回 JST 数学領域 未解決問題ワークショップ", url: "https://sites.google.com/view/openproblem2021/" },
+          { period: "2019年7月", description: "Organizer of Minisymposium, ICIAM 2019", url: "https://iciam.org/events/2019/jul/14/iciam-2019-valencia-spain" },
           { period: "2018年9月", description: "Organization Committee, Secretary, SCAN 2018" },
-          { period: "2018年3月", description: "Local Organizer, SIAM PP18" },
+          { period: "2018年3月", description: "Local Organizer, SIAM PP18", url: "http://siampp18.jsiam.org/" },
         ].map((item) => (
           <div class="flex gap-3 items-baseline">
             <span class="text-sm text-text-muted shrink-0 w-28">{item.period}</span>
-            <span class="text-text">{item.description}</span>
+            {item.url ? (
+              <a href={item.url} class="text-accent hover:underline" target="_blank" rel="noopener">{item.description}</a>
+            ) : (
+              <span class="text-text">{item.description}</span>
+            )}
           </div>
         ))}
       </div>
