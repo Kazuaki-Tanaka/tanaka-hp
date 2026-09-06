@@ -56,12 +56,12 @@ import BadgeList from '../../components/BadgeList.astro';
     <Section title="受賞">
       <div class="space-y-3">
         {[
-          { year: "2023", title: "第12回 WASEDA e-Teaching Award" },
-          { year: "2023", title: "公益社団法人日本工学教育協会 工学教育賞" },
+          { year: "2023", title: "第12回 WASEDA e-Teaching Award", url: "https://www.waseda.jp/inst/ches/news/2023/07/05/5232/" },
+          { year: "2023", title: "公益社団法人日本工学教育協会 工学教育賞", url: "https://www.jstage.jst.go.jp/article/jsee/71/6/71_6_49/_pdf/-char/ja" },
           { year: "2022", title: "Outstanding Presentation Award, JSST 2022" },
-          { year: "2022", title: "公益財団法人船井情報科学振興財団 船井研究奨励賞" },
-          { year: "2020", title: "第8回 WASEDA e-Teaching Award 大賞" },
-          { year: "2016", title: "日本応用数理学会2016年度年会 優秀ポスター賞" },
+          { year: "2022", title: "公益財団法人船井情報科学振興財団 船井研究奨励賞", url: "https://old.funaifoundation.jp/grantees/young_awardees_up_to_now_21.html" },
+          { year: "2020", title: "第8回 WASEDA e-Teaching Award 大賞", url: "https://www.waseda.jp/inst/ches/news/2020/04/06/2885/" },
+          { year: "2016", title: "日本応用数理学会2016年度年会 優秀ポスター賞", url: "https://annual2016.jsiam.org/2553" },
           { year: "2016", title: "大川功記念特別優秀賞" },
           { year: "2014", title: "Student Presentation Award, JSST 2014" },
           { year: "2013", title: "Student Presentation Award, JSST 2013" },
@@ -69,7 +69,11 @@ import BadgeList from '../../components/BadgeList.astro';
         ].map((item) => (
           <div class="flex gap-3 items-baseline">
             <span class="text-sm font-mono text-primary shrink-0 w-12">{item.year}</span>
-            <span class="text-text">{item.title}</span>
+            {item.url ? (
+              <a href={item.url} class="text-accent hover:underline" target="_blank" rel="noopener">{item.title}</a>
+            ) : (
+              <span class="text-text">{item.title}</span>
+            )}
           </div>
         ))}
       </div>

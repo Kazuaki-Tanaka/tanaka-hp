@@ -54,11 +54,12 @@ import BadgeList from '../../components/BadgeList.astro';
     <Section title="Prizes">
       <div class="space-y-3">
         {[
-          { year: "2023", title: "Engineering Education Award, Japanese Society for Engineering Education" },
+          { year: "2023", title: "The 12th WASEDA e-Teaching Award", url: "https://www.waseda.jp/inst/ches/news/2023/07/05/5232/" },
+          { year: "2023", title: "Engineering Education Award, Japanese Society for Engineering Education", url: "https://www.jstage.jst.go.jp/article/jsee/71/6/71_6_49/_pdf/-char/ja" },
           { year: "2022", title: "Outstanding Presentation Award, JSST 2022" },
-          { year: "2022", title: "Grantees FOS Recipients, Funai Foundation For Information Technology" },
-          { year: "2020", title: "The 8th WASEDA e-Teaching Award (Grand Award)" },
-          { year: "2016", title: "Poster Award, Annual conference of JSIAM" },
+          { year: "2022", title: "Grantees FOS Recipients, Funai Foundation For Information Technology", url: "https://old.funaifoundation.jp/grantees/young_awardees_up_to_now_21.html" },
+          { year: "2020", title: "The 8th WASEDA e-Teaching Award (Grand Award)", url: "https://www.waseda.jp/inst/ches/news/2020/04/06/2885/" },
+          { year: "2016", title: "Poster Award, Annual conference of JSIAM", url: "https://annual2016.jsiam.org/2553" },
           { year: "2016", title: "Isao Okawa Memorial Achievement Award, Waseda University" },
           { year: "2014", title: "Student Presentation Award, JSST 2014" },
           { year: "2013", title: "Student Presentation Award, JSST 2013" },
@@ -66,7 +67,11 @@ import BadgeList from '../../components/BadgeList.astro';
         ].map((item) => (
           <div class="flex gap-3 items-baseline">
             <span class="text-sm font-mono text-primary shrink-0 w-12">{item.year}</span>
-            <span class="text-text">{item.title}</span>
+            {item.url ? (
+              <a href={item.url} class="text-accent hover:underline" target="_blank" rel="noopener">{item.title}</a>
+            ) : (
+              <span class="text-text">{item.title}</span>
+            )}
           </div>
         ))}
       </div>
