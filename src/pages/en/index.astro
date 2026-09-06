@@ -10,9 +10,9 @@ import BadgeList from '../../components/BadgeList.astro';
   <!-- Hero -->
   <div class="bg-bg-card rounded-xl border border-border shadow-sm p-6 sm:p-8 mb-6">
     <h1 class="text-3xl sm:text-4xl font-bold text-primary">Kazuaki Tanaka</h1>
-    <p class="text-text mt-3">Chief Researcher, Fundamental Research Dept., RICOS Co. Ltd.</p>
-    <p class="text-text">Adjunct Researcher, Research Institute for Science and Engineering, Waseda University</p>
-    <p class="text-text">Representative Director, Mathematics for Social Implementation Center (MaSIC)</p>
+    <p class="text-text mt-3">Chief Researcher, Fundamental Research Dept., <a href="https://www.ricos.co.jp/en/" class="text-accent hover:underline" target="_blank" rel="noopener">RICOS Co. Ltd.</a></p>
+    <p class="text-text">Adjunct Researcher, <a href="https://www.waseda.jp/fsci/wise/" class="text-accent hover:underline" target="_blank" rel="noopener">Research Institute for Science and Engineering, Waseda University</a></p>
+    <p class="text-text">Representative Director, <a href="https://masic.jp/" class="text-accent hover:underline" target="_blank" rel="noopener">Mathematics for Social Implementation Center (MaSIC)</a></p>
     <p class="text-text-muted text-sm">Ph.D. / JST FOREST Researcher</p>
   </div>
 
@@ -67,6 +67,37 @@ import BadgeList from '../../components/BadgeList.astro';
           <div class="flex gap-3 items-baseline">
             <span class="text-sm font-mono text-primary shrink-0 w-12">{item.year}</span>
             <span class="text-text">{item.title}</span>
+          </div>
+        ))}
+      </div>
+    </Section>
+
+    <!-- Grants -->
+    <Section title="Grants">
+      <div class="space-y-4">
+        {[
+          { period: "Oct. 2025 – Mar. 2031", title: "Designing Order: Predictive Mathematics for the Control of Natural River Dynamics", source: "JST CREST", role: "Collaborator", url: "https://www.jst.go.jp/kisoken/crest/en/project/1111123/1111123_2025.html" },
+          { period: "Apr. 2021 – Mar. 2028", title: "精度保証付きニューラルネットワーク数値計算理論の確立", source: "JST FOREST", role: "PI", url: "https://projectdb.jst.go.jp/grant/JST-PROJECT-20353003/" },
+          { period: "Apr. 2024 – Mar. 2028", title: "Elucidation of the stabilisation mechanism of naturally-derived river channel based on observation big data during floods and identification of river channel design indicators", source: "KAKENHI Scientific Research (A)", role: "Co-Investigator", url: "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24H00365/" },
+          { period: "Apr. 2025 – Sep. 2026", title: "精度保証付きPINNsの開発と実問題への応用", source: "68th Engineering Research Grant, Mizuho Foundation for the Promotion of Sciences", role: "PI" },
+          { period: "Apr. 2023 – Mar. 2026", title: "不連続拡散係数を持つ反応拡散モデルに対する精度保証付き数値計算法", source: "KAKENHI Early-Career Scientists", role: "PI", url: "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-23K13020/" },
+          { period: "Jan. 2022 – Dec. 2023", title: "急激な温度変化を伴う反応拡散現象に対する精度保証付き数値計算法に関する研究", source: "Kayamori Foundation of Informational Science Advancement", role: "PI", url: "https://www.kayamorif.or.jp/j-kj/j-kj_2021.pdf" },
+          { period: "Jan. 2021 – Dec. 2021", title: "相分離現象解明のための精度保証付き数値計算法", source: "The Okawa Foundation for Information and Telecommunications", role: "PI" },
+          { period: "Apr. 2019 – Mar. 2022", title: "Sign-change structure analysis for reaction-diffusion models based on rigorous numerical computation", source: "KAKENHI Early-Career Scientists", role: "PI", url: "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-19K14601/" },
+          { period: "Aug. 2017 – Mar. 2019", title: "Verified numerical computation for solutions to partial differential equations describing reaction diffusion models", source: "KAKENHI Research Activity Start-up", role: "PI", url: "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-17H07188/" },
+          { period: "Apr. 2017 – Mar. 2020", title: "反応拡散モデルを記述する偏微分方程式の正値解に対する精度保証付き数値計算法と関連する数学上の問題に関する研究", source: "60th Engineering Research Grant, Mizuho Foundation for the Promotion of Sciences", role: "PI" },
+        ].map((item) => (
+          <div class="border-l-2 border-primary/30 pl-4">
+            <div class="text-sm font-mono text-text-muted">{item.period}</div>
+            {item.url ? (
+              <a href={item.url} class="text-accent hover:underline mt-0.5 inline-block" target="_blank" rel="noopener">{item.title}</a>
+            ) : (
+              <div class="text-text mt-0.5">{item.title}</div>
+            )}
+            <div class="flex gap-2 mt-1">
+              <span class="text-xs bg-gray-100 text-text-muted px-2 py-0.5 rounded">{item.source}</span>
+              <span class="text-xs bg-primary/8 text-primary px-2 py-0.5 rounded">{item.role}</span>
+            </div>
           </div>
         ))}
       </div>

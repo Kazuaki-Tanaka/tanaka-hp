@@ -11,9 +11,9 @@ import BadgeList from '../../components/BadgeList.astro';
   <div class="bg-bg-card rounded-xl border border-border shadow-sm p-6 sm:p-8 mb-6">
     <h1 class="text-3xl sm:text-4xl font-bold text-primary">田中 一成</h1>
     <p class="text-lg text-text-muted mt-1">TANAKA, Kazuaki</p>
-    <p class="text-text mt-3">株式会社RICOS 主任研究員</p>
-    <p class="text-text">早稲田大学 理工学術院総合研究所 招聘研究員</p>
-    <p class="text-text">一般社団法人 数理社会実装教育研究センター（MaSIC）代表理事</p>
+    <p class="text-text mt-3"><a href="https://www.ricos.co.jp/ja/" class="text-accent hover:underline" target="_blank" rel="noopener">株式会社RICOS</a> 主任研究員</p>
+    <p class="text-text"><a href="https://www.waseda.jp/fsci/wise/" class="text-accent hover:underline" target="_blank" rel="noopener">早稲田大学 理工学術院総合研究所</a> 招聘研究員</p>
+    <p class="text-text"><a href="https://masic.jp/" class="text-accent hover:underline" target="_blank" rel="noopener">一般社団法人 数理社会実装教育研究センター（MaSIC）</a> 代表理事</p>
     <p class="text-text-muted text-sm">博士(工学) ／ 科学技術振興機構 (JST) 創発研究者</p>
   </div>
 
@@ -79,20 +79,24 @@ import BadgeList from '../../components/BadgeList.astro';
     <Section title="研究助成">
       <div class="space-y-4">
         {[
-          { period: "2025.10 – 2031.3", title: "秩序の設計－数理が拓く河川の制御", source: "JST CREST", role: "主たる共同研究者" },
-          { period: "2021.4 – 2028.3", title: "精度保証付きニューラルネットワーク数値計算理論の確立", source: "JST 創発的研究支援事業", role: "代表" },
-          { period: "2024.4 – 2028.3", title: "洪水時の観測ビッグデータに基づく自然由来河道の安定機構の解明と河道設計指標の特定", source: "科研費 基盤研究(A)", role: "分担" },
+          { period: "2025.10 – 2031.3", title: "秩序の設計－数理が拓く河川の制御", source: "JST CREST", role: "主たる共同研究者", url: "https://www.jst.go.jp/kisoken/crest/project/1111123/1111123_2025.html" },
+          { period: "2021.4 – 2028.3", title: "精度保証付きニューラルネットワーク数値計算理論の確立", source: "JST 創発的研究支援事業", role: "代表", url: "https://projectdb.jst.go.jp/grant/JST-PROJECT-20353003/" },
+          { period: "2024.4 – 2028.3", title: "洪水時の観測ビッグデータに基づく自然由来河道の安定機構の解明と河道設計指標の特定", source: "科研費 基盤研究(A)", role: "分担", url: "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24H00365/" },
           { period: "2025.4 – 2026.9", title: "精度保証付きPINNsの開発と実問題への応⽤", source: "みずほ学術振興財団 第68回工学研究助成", role: "代表" },
-          { period: "2023.4 – 2026.3", title: "不連続拡散係数を持つ反応拡散モデルに対する精度保証付き数値計算法", source: "科研費 若手研究", role: "代表" },
-          { period: "2022.1 – 2023.12", title: "急激な温度変化を伴う反応拡散現象に対する精度保証付き数値計算法に関する研究", source: "栢森情報科学振興財団", role: "代表" },
+          { period: "2023.4 – 2026.3", title: "不連続拡散係数を持つ反応拡散モデルに対する精度保証付き数値計算法", source: "科研費 若手研究", role: "代表", url: "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-23K13020/" },
+          { period: "2022.1 – 2023.12", title: "急激な温度変化を伴う反応拡散現象に対する精度保証付き数値計算法に関する研究", source: "栢森情報科学振興財団", role: "代表", url: "https://www.kayamorif.or.jp/j-kj/j-kj_2021.pdf" },
           { period: "2021.1 – 2021.12", title: "相分離現象解明のための精度保証付き数値計算法", source: "大川情報通信基金", role: "代表" },
-          { period: "2019.4 – 2022.3", title: "精度保証付き数値計算による反応拡散モデルの解に対する符号変化構造解析", source: "科研費 若手研究", role: "代表" },
-          { period: "2017.8 – 2019.3", title: "反応拡散モデルを記述する偏微分方程式の正値解に対する精度保証付き数値計算法", source: "科研費 研究活動スタート支援", role: "代表" },
+          { period: "2019.4 – 2022.3", title: "精度保証付き数値計算による反応拡散モデルの解に対する符号変化構造解析", source: "科研費 若手研究", role: "代表", url: "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-19K14601/" },
+          { period: "2017.8 – 2019.3", title: "反応拡散モデルを記述する偏微分方程式の正値解に対する精度保証付き数値計算法", source: "科研費 研究活動スタート支援", role: "代表", url: "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-17H07188/" },
           { period: "2017.4 – 2020.3", title: "反応拡散モデルを記述する偏微分方程式の正値解に対する精度保証付き数値計算法と関連する数学上の問題に関する研究", source: "みずほ学術振興財団 第60回工学研究助成", role: "代表" },
         ].map((item) => (
           <div class="border-l-2 border-primary/30 pl-4">
             <div class="text-sm font-mono text-text-muted">{item.period}</div>
-            <div class="text-text mt-0.5">{item.title}</div>
+            {item.url ? (
+              <a href={item.url} class="text-accent hover:underline mt-0.5 inline-block" target="_blank" rel="noopener">{item.title}</a>
+            ) : (
+              <div class="text-text mt-0.5">{item.title}</div>
+            )}
             <div class="flex gap-2 mt-1">
               <span class="text-xs bg-gray-100 text-text-muted px-2 py-0.5 rounded">{item.source}</span>
               <span class="text-xs bg-primary/8 text-primary px-2 py-0.5 rounded">{item.role}</span>
