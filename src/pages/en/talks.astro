@@ -1,7 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/PageHeader.astro';
-import { loadTalks, groupBy } from '../../lib/data';
+import TalkList from '../../components/TalkList.astro';
+import { loadTalks } from '../../lib/data';
 import type { Talk } from '../../lib/data';
 
 const talks = loadTalks();
@@ -78,21 +79,12 @@ const intlCount = talks.filter((t) => t.international).length;
           {section.label}
           <span class="text-sm font-normal text-text-muted">({section.items.length})</span>
         </h2>
-        <ul class="space-y-3">
-          {section.items.map((talk) => (
-            <li class="text-sm leading-relaxed">
-              <div class="flex items-start gap-2">
-                <span class="shrink-0 text-xs font-mono text-text-muted mt-0.5 w-24">{formatDate(talk.date)}</span>
-                <div>
-                  <span set:html={formatTalk(talk)} />
-                  <span class="inline-flex gap-1 ml-1">
-                    {talk.invited && <span class="text-[10px] px-1.5 py-0.5 rounded bg-amber-100 text-amber-800">Invited</span>}
-                  </span>
-                </div>
-              </div>
-            </li>
-          ))}
-        </ul>
+        <TalkList
+          items={section.items}
+          formatDate={formatDate}
+          formatTalk={formatTalk}
+          moreLabel={(n) => `${n} more`}
+        />
       </div>
     ))}
   </div>

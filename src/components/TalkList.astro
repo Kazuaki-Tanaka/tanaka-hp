@@ -1,0 +1,51 @@
+---
+import type { Talk } from '../lib/data';
+
+interface Props {
+  items: Talk[];
+  formatDate: (d: string) => string;
+  formatTalk: (talk: Talk) => string;
+  moreLabel: (count: number) => string;
+}
+
+const PREVIEW = 5;
+const { items, formatDate, formatTalk, moreLabel } = Astro.props;
+const visible = items.slice(0, PREVIEW);
+const rest = items.slice(PREVIEW);
+---
+
+<ul class="space-y-3">
+  {visible.map((talk) => (
+    <li class="text-sm leading-relaxed">
+      <div class="flex items-start gap-2">
+        <span class="shrink-0 text-xs font-mono text-text-muted mt-0.5 w-24">{formatDate(talk.date)}</span>
+        <div>
+          <span set:html={formatTalk(talk)} />
+          <span class="inline-flex gap-1 ml-1">
+            {talk.invited && <span class="text-[10px] px-1.5 py-0.5 rounded bg-amber-100 text-amber-800">Invited</span>}
+          </span>
+        </div>
+      </div>
+    </li>
+  ))}
+</ul>
+{rest.length > 0 && (
+  <details class="mt-4">
+    <summary class="text-sm text-text-muted cursor-pointer w-fit">{moreLabel(rest.length)}</summary>
+    <ul class="space-y-3 mt-3">
+      {rest.map((talk) => (
+        <li class="text-sm leading-relaxed">
+          <div class="flex items-start gap-2">
+            <span class="shrink-0 text-xs font-mono text-text-muted mt-0.5 w-24">{formatDate(talk.date)}</span>
+            <div>
+              <span set:html={formatTalk(talk)} />
+              <span class="inline-flex gap-1 ml-1">
+                {talk.invited && <span class="text-[10px] px-1.5 py-0.5 rounded bg-amber-100 text-amber-800">Invited</span>}
+              </span>
+            </div>
+          </div>
+        </li>
+      ))}
+    </ul>
+  </details>
+)}
