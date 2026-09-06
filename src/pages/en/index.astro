@@ -30,7 +30,17 @@ import BadgeList from '../../components/BadgeList.astro';
   <div class="space-y-6">
     <!-- Contact -->
     <Section title="Contact">
-      <ObfuscatedEmail label="Email" />
+      <div class="space-y-2">
+        <ObfuscatedEmail label="Email" />
+        <dl>
+          <div class="flex flex-col sm:flex-row sm:gap-4">
+            <dt class="text-sm font-semibold text-text-muted sm:w-32 shrink-0">X</dt>
+            <dd class="text-text">
+              <a href="https://x.com/TNK_Kazuaki" class="text-accent hover:underline" target="_blank" rel="noopener">@TNK_Kazuaki</a>
+            </dd>
+          </div>
+        </dl>
+      </div>
     </Section>
 
     <!-- Keywords -->
