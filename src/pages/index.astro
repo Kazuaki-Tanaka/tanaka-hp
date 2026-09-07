@@ -1,3 +1,8 @@
 ---
-return Astro.redirect('/ja/');
+import BaseLayout from '../layouts/BaseLayout.astro';
+import JaHome from '../components/JaHome.astro';
 ---
+
+<BaseLayout title="田中 一成 (TANAKA, Kazuaki)" description="田中 一成 プロフィール">
+  <JaHome />
+</BaseLayout>

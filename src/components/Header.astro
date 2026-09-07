@@ -5,8 +5,14 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const navItems = getNavItems(lang);
 const otherLang = lang === 'ja' ? 'en' : 'ja';
-const currentPath = Astro.url.pathname.replace(`/${lang}`, '');
+const pathname = Astro.url.pathname;
+const currentPath = pathname === '/' ? '/' : pathname.replace(`/${lang}`, '');
 const switchUrl = `/${otherLang}${currentPath}`;
+
+const isActive = (href: string) =>
+  pathname === href ||
+  (href.endsWith('/') && pathname + '/' === href) ||
+  (href === `/${lang}/` && pathname === '/');
 ---
 
 <header class="bg-white border-b border-border sticky top-0 z-50">
@@ -22,7 +28,7 @@ const switchUrl = `/${otherLang}${currentPath}`;
               href={item.href}
               class:list={[
                 'px-3 py-2 rounded-md text-sm font-medium transition-colors',
-                Astro.url.pathname === item.href || (item.href.endsWith('/') && Astro.url.pathname + '/' === item.href)
+                isActive(item.href)
                   ? 'bg-primary/10 text-primary'
                   : 'text-text-muted hover:text-text hover:bg-gray-100',
               ]}
@@ -50,7 +56,7 @@ const switchUrl = `/${otherLang}${currentPath}`;
           href={item.href}
           class:list={[
             'block px-3 py-2 rounded-md text-sm font-medium transition-colors',
-            Astro.url.pathname === item.href
+            isActive(item.href)
               ? 'bg-primary/10 text-primary'
               : 'text-text-muted hover:text-text hover:bg-gray-100',
           ]}
