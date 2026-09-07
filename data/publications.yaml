@@ -493,7 +493,8 @@
   pages: ''
   doi: ''
   arxiv: ''
-  links: {}
+  links:
+    Journal: https://www.nippyo.co.jp/shop/magazine/9618.html
 - title:
     en: ''
     ja: 数理科学を活用したコントラスト変調小角散乱法による多成分有機ハイブリッド材料のナノ構造解析
@@ -533,7 +534,8 @@
   pages: ''
   doi: ''
   arxiv: ''
-  links: {}
+  links:
+    Journal: https://orsj.org/?p=8181
 - title:
     en: ''
     ja: コンピュータも計算を間違う？－数値計算の精度と誤差－
@@ -549,9 +551,10 @@
   journal: 日本音響学会誌 78巻10号
   volume: 78(10)
   pages: ''
-  doi: ''
+  doi: 10.20697/jasj.78.10_578
   arxiv: ''
-  links: {}
+  links:
+    Journal: https://doi.org/10.20697/jasj.78.10_578
 - title:
     en: ''
     ja: 中性子小角散乱法を用いた多成分系ナノ構造解析における誤差評価手法を開発
@@ -567,5 +570,8 @@
   pages: ''
   doi: ''
   arxiv: ''
-  links: {}
+  links:
+    JST: https://www.jst.go.jp/pr/announce/20241217/index.html
+    ISSP: https://www.issp.u-tokyo.ac.jp/maincontents/news2.html?pid=25455
+    日経: https://www.nikkei.com/article/DGXZRSP683758_T11C24A2000000/
   note: 科学技術振興機構, 東京大学物性研究所, 日本経済新聞他
